@@ -18,7 +18,7 @@ The purpose of this **practice repository** is to get comfortable using the fron
 [Teams](#teams)
 
 
-## Website Ideas :bulb:
+## Website Ideas
 This is short list of ideas that are on the table. Feel free to add more, but let's try to wrap up the concept in a week. **near 3/10**
 
 * a site compiling links, tutorials, and articles shared in the **Udacity Discussion Forums**? This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course.
@@ -31,7 +31,7 @@ We can think about and expand on these concepts a little more, **1 week** should
 
 [[back to top]](#readme)
 
-## Learning Git and Github :twisted_rightwards_arrows: :octocat:
+## Learning Git and Github 
 If you haven't already, please begin learning **the fundamentals of git** and **collaborating on GitHub**. Most of the fundamental learning will involve using git on your local machine and we will be using GitHub's collaborative features to build together.
 
 > #### This is necessary, especially if you plan to contribute code to the project.
@@ -54,7 +54,7 @@ Here's some links that were passed around in the forums that I believe are some 
 	[[back to top]](#readme)
 
 
-## Current Group Tasks and Deadlines :memo:
+## Current Group Tasks and Deadlines
 
 * We have **1 week** *(by March 10th or 11th)* to [choose a team](#project-team-sign-up) to contribute with. How would you like to contribute? **More details below.**
 
@@ -71,7 +71,7 @@ Here's some links that were passed around in the forums that I believe are some 
 * Work in small teams, hoping everyone will have a meaningful role
 
 
-## Project Team Sign Up :busts_in_silhouette:
+## Project Team Sign Up
  
 > **Instruction:** Let's keep this process simple!
 > 
