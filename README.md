@@ -1,6 +1,3 @@
-# README
-
-
 ## Welcome!
 
 Welcome to the **GWGweb-projectgroup** _practice project_ repository!
