@@ -120,7 +120,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Becky Boyce  | beckyboyce   | beckyboyce  | [github/beckybair](https://github.com/beckybair/GWGpractice)
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
-Daren Morreale  | (your @)     | @Daren  | https://github.com/darenjm
+Daren Morreale  |     | @Daren  | https://github.com/darenjm
 
 
 ### HTML refactoring and optimization
