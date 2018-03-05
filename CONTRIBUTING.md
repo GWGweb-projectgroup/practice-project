@@ -1,8 +1,6 @@
 # CONTRIBUTING
 
-## Welcome!
-
-Welcome to the **GWGweb-projectgroup** practice project repository, below are details on how to contribute to the project. If you have any questions, you can always ask by creating an **Issue** here in the repository.
+Below are details on how to contribute to the project. If you have any questions, you can always ask by creating an **Issue** here in the repository.
 
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
