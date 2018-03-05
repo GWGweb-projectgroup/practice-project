@@ -99,8 +99,8 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 
 * [Wireframe and layout design](#wireframe-and-layout-design)
 * [Index HTML](#index-html)
-*  [HTML refactoring and optimization](#html-refactoring-and-optimization)
-*  [CSS refactoring and optimization](#css-refactoring-and-optimization)
+* [HTML refactoring and optimization](#html-refactoring-and-optimization)
+* [CSS refactoring and optimization](#css-refactoring-and-optimization)
 * [JavaScript refactoring and optimization](#javascript-refactoring-and-optimization)
 * [Asset Gathering](#asset-gathering)
 * [Copy and grammar editing](#copy-and-grammar-editing)
@@ -136,6 +136,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
+Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 Daren Morreale  | (your @)     | @Daren  | https://github.com/darenjm
 
 ### JavaScript refactoring and optimization
