@@ -25,13 +25,15 @@ The purpose of this **practice repository** is to get comfortable using the fron
 ## Website Ideas
 This is short list of ideas that are on the table. Feel free to add more, but let's try to wrap up the concept in a week. **near 3/10**
 
-* a site compiling links, tutorials, and articles shared in the **Udacity Discussion Forums**? This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course.
+* a site compiling links, tutorials, and articles on the different aspects of web developemnt for beginner's. This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course and becoming a web developer in general
 
 * a mock online storefront
 
 * mock social network main page
 
-We can think about and expand on these concepts a little more, **1 week** should be plenty of time to come up with a fun, quick, and easy project. My pick is the Udacity resources!
+* build a small CSS _component framework_
+
+We can think about and expand on these concepts a little more, **1 week** should be plenty of time to come up with a fun, quick, and easy project. My pick is the resources site!
 
 [[back to top]](#readme)
 
