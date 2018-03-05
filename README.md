@@ -2,7 +2,7 @@
 
 The purpose of this **practice repository** is to get comfortable using the front end skills we've learned so far. Also to gain experience using & collaborating with **git** and the **GitHub** online repository service. If you don't have one already, please [create a GitHub account](http://www.github.com) as it is required to contribute to the project.
 
-:warning: **IMPORTANT: Please fork this repository to _your_ account and work as you would locally from there**  
+:warning: **IMPORTANT: Please fork this repository to _your_ account and work as you would locally from there.** Please refer to the [CONTRIBUTING](https://github.com/GWGweb-projectgroup/practice-project/blob/master/CONTRIBUTING.md) file for more information.
 
 
 
