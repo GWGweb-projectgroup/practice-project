@@ -2,6 +2,8 @@
 
 The purpose of this **practice repository** is to get comfortable using the front end skills we've learned so far. Also to gain experience using & collaborating with **git** and the **GitHub** online repository service. If you don't have one already, please [create a GitHub account](http://www.github.com) as it is required to contribute to the project.
 
+:warning: **IMPORTANT: Please fork this repository to _your_ account and work as you would locally from there**  
+
 
 
 ###  Table of Contents
@@ -111,7 +113,7 @@ Contributors in this group will create a mockup/wireframe/sketch of what the sit
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-Daren Morreale  |   | @Daren  | https://github.com/darenjm
+Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 
 ### Index Html
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
@@ -120,7 +122,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Becky Boyce  | beckyboyce   | beckyboyce  | [github/beckybair](https://github.com/beckybair/GWGpractice)
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
-Daren Morreale  |     | @Daren  | https://github.com/darenjm
+Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 
 
 ### HTML refactoring and optimization
@@ -128,7 +130,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-(your name)  | (your @)     | your @  | optional link
+Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 
 ### CSS refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***stylesheet*** file *(checking syntax errors, etc.)*
@@ -137,15 +139,15 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
-Daren Morreale  |     | @Daren  | https://github.com/darenjm
+Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-(your name)  | (your @)     | your @  | optional link
-Daren Morreale  |   | @Daren  | https://github.com/darenjm
+Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
+Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
@@ -159,7 +161,7 @@ Contributors in this group will help spot grammatical and spelling errors within
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-(your name)  | (your @)     | your @  | optional link
+Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 
 ### Git Assistance
 Contributors in this group will 
