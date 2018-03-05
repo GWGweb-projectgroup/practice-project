@@ -122,7 +122,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Becky Boyce  | beckyboyce   | beckyboyce  | [github/beckybair](https://github.com/beckybair/GWGpractice)
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
-
+Ina Chemerko  | innachemerkolrz    | @Ina Chemerko  | [github/InaChemerko](https://github.com/InaChemerko)
 
 ### HTML refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***index.html*** file *(checking syntax errors, etc.)*
@@ -139,6 +139,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
+Ina Chemerko  | innachemerkolrz    | @Ina Chemerko  | [github/InaChemerko](https://github.com/InaChemerko)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
@@ -146,6 +147,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
+Ina Chemerko  | innachemerkolrz    | @Ina Chemerko  | [github/InaChemerko](https://github.com/InaChemerko)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
