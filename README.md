@@ -135,6 +135,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
+Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
