@@ -118,6 +118,7 @@ Contributors in this group will create a mockup/wireframe/sketch of what the sit
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 
 ### Initial HTML development
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
