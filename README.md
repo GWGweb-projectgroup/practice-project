@@ -25,7 +25,7 @@ The purpose of this **practice repository** is to get comfortable using the fron
 ## Website Ideas
 This is short list of ideas that are on the table. Feel free to add more, but let's try to wrap up the concept in a week. **near 3/10**
 
-* a site compiling links, tutorials, and articles on the different aspects of web developemnt for beginner's. This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course and becoming a web developer in general
+* a site compiling links, tutorials, and articles on the different aspects of web development for beginner's. This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course and becoming a web developer in general
 
 * a mock online storefront
 
@@ -118,8 +118,10 @@ Contributors in this group will create a mockup/wireframe/sketch of what the sit
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+
 
 ### Initial HTML development
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
