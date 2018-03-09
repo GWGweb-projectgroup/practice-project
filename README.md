@@ -114,6 +114,7 @@ Contributors in this group will create a mockup/wireframe/sketch of what the sit
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 ### Index Html
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
@@ -123,6 +124,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Becky Boyce  | beckyboyce   | beckyboyce  | [github/beckybair](https://github.com/beckybair/GWGpractice)
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 
 ### HTML refactoring and optimization
@@ -131,6 +133,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 ### CSS refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***stylesheet*** file *(checking syntax errors, etc.)*
@@ -140,6 +143,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
@@ -148,6 +152,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
