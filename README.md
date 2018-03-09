@@ -170,7 +170,6 @@ Contributors in this group will gather resources for images, icons, and media pe
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
-(your name)  | (your @)     | your @  | optional link
 
 ### Copy and grammar editing
 Contributors in this group will help spot grammatical and spelling errors within the site's body & content.
