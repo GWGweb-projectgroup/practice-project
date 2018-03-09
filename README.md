@@ -119,6 +119,9 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
+Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+
 
 ### Initial HTML development
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
@@ -127,6 +130,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 
 ### HTML refactoring and optimization
@@ -137,6 +141,9 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Michael Kroth | Quattrodog | Quattrodog | [github/flyingdad](https://github.com/FlyingDad)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+
+
 
 ### CSS refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***stylesheet*** file *(checking syntax errors, etc.)*
@@ -147,6 +154,8 @@ Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/c
 Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
+Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
@@ -155,6 +164,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
@@ -170,6 +180,7 @@ Contributors in this group will help spot grammatical and spelling errors within
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
+Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 
 ### Git Assistance
 Contributors in this group will
