@@ -6,6 +6,11 @@ The purpose of this **practice repository** is to get comfortable using the fron
 
 :warning: **IMPORTANT: Please fork this repository to _your_ account and work as you would locally from there.** Please refer to the [CONTRIBUTING](https://github.com/GWGweb-projectgroup/practice-project/blob/master/CONTRIBUTING.md) file for more information.
 
+## Progress
+This section will be updated so that any newcomers can quickly view the progress of our project!
+
+![](img/site-so-far.jpg)
+
 
 
 ###  Table of Contents
