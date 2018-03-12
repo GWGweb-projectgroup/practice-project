@@ -13,3 +13,8 @@ body {
 nav{
   margin-bottom: 1rem;
 }
+
+.hero-section {
+  background: url(../img/products/tablet_06.jpg) no-repeat;
+  background-size: 400px 100%;
+}
