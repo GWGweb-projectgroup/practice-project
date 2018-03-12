@@ -9,7 +9,6 @@ The purpose of this **practice repository** is to get comfortable using the fron
 
 
 ###  Table of Contents
-[Website Ideas](#website-ideas)
 
 [Learning Git and GitHub](#learning-git-and-github)
 
@@ -21,21 +20,6 @@ The purpose of this **practice repository** is to get comfortable using the fron
 
 [Teams](#teams)
 
-
-## Website Ideas
-This is short list of ideas that are on the table. Feel free to add more, but let's try to wrap up the concept in a week. **near 3/10**
-
-* a site compiling links, tutorials, and articles on the different aspects of web development for beginner's. This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course and becoming a web developer in general
-
-* a mock online storefront
-
-* mock social network main page
-
-* build a small CSS _component framework_
-
-We can think about and expand on these concepts a little more, **1 week** should be plenty of time to come up with a fun, quick, and easy project. My pick is the resources site!
-
-[[back to top]](#readme)
 
 ## Learning Git and Github
 If you haven't already, please begin learning **the fundamentals of git** and **collaborating on GitHub**. Most of the fundamental learning will involve using git on your local machine and we will be using GitHub's collaborative features to build together.
@@ -156,6 +140,7 @@ Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
@@ -165,6 +150,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
