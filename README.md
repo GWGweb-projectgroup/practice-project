@@ -103,7 +103,6 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
-Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 
 
@@ -138,7 +137,6 @@ Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/c
 Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
-Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 
@@ -165,7 +163,6 @@ Contributors in this group will help spot grammatical and spelling errors within
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
-Megan Spaulding  |     | @Megan Spaulding  | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 
 ### Git Assistance
 Contributors in this group will
