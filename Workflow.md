@@ -44,6 +44,8 @@ In order to stay up to date with what's going on and keeping your **master** cod
 
 2. Now you're free to play around and make changes as you see fit
 
+>IMPORTANT: Pull the main repo's **[master]** branch onto your machine everytime before you begin working on additions, ensuring your working with the latest changes.
+
 <hr> 
 
 ## 5. Push your separate branch up to your GitHub account
