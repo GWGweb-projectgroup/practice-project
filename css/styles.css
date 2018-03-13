@@ -6,7 +6,8 @@ body {
   font-family: var(--main-font), Arial, sans-serif;
 }
 
-.hero-section, .hero-section-audio {
+.hero-section,
+.hero-section-audio {
   height: 260px;
   margin-bottom: 2rem;
 }
@@ -20,11 +21,13 @@ nav {
   background-size: 400px 100%;
 }
 
-.productpage-header + p {
+.productpage-header+p {
   margin-bottom: 2rem;
 }
 
+
 /* Audio Products section styles*/
+
 .hero-section-audio {
   background: url(../img/products/club-back.jpg);
   position: relative;
@@ -68,7 +71,8 @@ nav {
   font-size: 1.3rem;
 }
 
-.dj-mixing, .dj-shades {
+.dj-mixing,
+.dj-shades {
   position: absolute;
   bottom: 0;
 }
