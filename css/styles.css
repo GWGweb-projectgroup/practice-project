@@ -6,7 +6,7 @@ body {
   font-family: var(--main-font), Arial, sans-serif;
 }
 
-.hero-section {
+.hero-section, .hero-section-audio {
   height: 260px;
   margin-bottom: 2rem;
 }
@@ -20,33 +20,67 @@ nav {
   background-size: 400px 100%;
 }
 
-.products {
-  text-align: center;
+.productpage-header + p {
+  margin-bottom: 2rem;
 }
 
-.products img {
+/* Audio Products section styles*/
+.hero-section-audio {
+  background: url(../img/products/club-back.jpg);
+  position: relative;
+  background-size: contain;
+}
+
+.audio-products_display {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.audio-product {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.audio-product .product-name {
+  margin-bottom: 2.2rem;
+}
+
+.audio-product img {
+  width: 210px;
+  height: 400px;
+  margin-bottom: 2rem;
   max-width: 100%;
-  max-height: 150px;
-  background: #fff;
+  max-height: 180px;
+  /* background: #fff; */
   transition: transform .2s ease-in-out;
 }
 
-.products img:hover {
+.audio-product img:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
-  border: 1px solid gray;
   border-radius: 2px;
   cursor: pointer;
 }
 
-.products .row {
-  margin-bottom: 2rem;
+.audio-product .price {
+  font-size: 1.3rem;
 }
 
-.productpage-header {
-  margin-bottom: 2rem;
+.dj-mixing, .dj-shades {
+  position: absolute;
+  bottom: 0;
 }
 
-.audio-product {
-  width: 33%;
+.dj-mixing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+}
+
+.dj-shades {
+  height: 300px;
+  right: -10px;
 }
