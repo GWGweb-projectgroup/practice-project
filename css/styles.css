@@ -1,6 +1,7 @@
 :root {
   --main-font: Quicksand;
 }
+
 body {
   font-family: var(--main-font), Arial, sans-serif;
 }
@@ -10,11 +11,38 @@ body {
   margin-bottom: 2rem;
 }
 
-nav{
+nav {
   margin-bottom: 1rem;
 }
 
 .hero-section {
   background: url(../img/products/tablet_06.jpg) no-repeat;
   background-size: 400px 100%;
+}
+
+.products {
+  text-align: center;
+}
+
+.products img {
+  max-width: 100%;
+  max-height: 150px;
+  background: #fff;
+  transition: transform .2s ease-in-out;
+}
+
+.products img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  border: 1px solid gray;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.products .row {
+  margin-bottom: 2rem;
+}
+
+.productpage-header {
+  margin-bottom: 2rem;
 }
