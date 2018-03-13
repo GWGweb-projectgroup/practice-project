@@ -20,6 +20,17 @@ nav {
   background-size: 400px 100%;
 }
 
+.category-sections {
+  border-bottom: 1px solid gray;
+  margin-bottom: 2rem;
+}
+
+.category-header {
+  margin-top: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
 .products {
   text-align: center;
 }
