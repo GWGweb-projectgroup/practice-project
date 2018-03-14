@@ -114,7 +114,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
-Dionne Petty | | ddpetty |@Dionne | [github/ddpetty](https://github.com/ddpetty)
+Dionne Petty | ddpetty |@Dionne |[github/ddpetty](https://github.com/ddpetty)
 
 
 ### HTML refactoring and optimization
