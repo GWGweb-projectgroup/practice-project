@@ -39,8 +39,6 @@ nav {
 
 /* Audio Products section styles*/
 
-/* Need to structure css to include products other than audio as well */
-
 .hero-section-audio {
   background: url(../img/products/club-back.jpg);
   position: relative;
@@ -107,7 +105,4 @@ nav {
 
 footer {
   text-align: center;
-  color: white;
-  background: gray;
-  padding: 1.5rem;
 }

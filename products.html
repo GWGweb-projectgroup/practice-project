@@ -33,10 +33,10 @@
             Categories
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Computers</a>
-            <a class="dropdown-item" href="#">Tech &amp; Gadgets</a>
-            <a class="dropdown-item" href="audio.html">Audio</a>
-            <a class="dropdown-item" href="#">Accessories</a>
+            <a class="dropdown-item" href="#computers">Computers</a>
+            <a class="dropdown-item" href="#tech">Tech &amp; Gadgets</a>
+            <a class="dropdown-item" href="#audio">Audio</a>
+            <a class="dropdown-item" href="#accessories">Accessories</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#"> <i class="fas fa-bookmark mr-2 text-info"></i>Saved Products</a>
           </div>
@@ -52,93 +52,357 @@
     </div>
   </nav>
   <!-- /.nav -->
+
   <div class="container">
-    <h1 class="productpage-header">Products</h1>
-    <div class="products">
-      <div class="category-sections">
-        <h2 class="category-header"><i class="fas fa-laptop"></i> Computers</h2>
-        <div class="row">
-          <div class="col-4">
-            <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_02.png" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
-          </div>
-          <div class="col-4">
-            <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_03.jpeg" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
-          </div>
-          <div class="col-4">
-            <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_03.jpg" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
-          </div>
-        </div>
-        <!-- TODO: use this link to toggle all products in this category -->
-        <a href="#">See All</a>
+    <div class="row">
+      <!-- TODO: 
+        add hero-switch class to switch image 
+        transition to hide products
+        display products according to link clicked
+      -->
+      <div class="hero-section-audio col-12 border">
+        <img src="img/products/dj.png" class="dj-mixing" alt="dj mixing">
+        <img src="img/products/cooldj.png" class="dj-shades" alt="cool dj">
       </div>
 
-      <div class="category-sections">
-          <h2 class="category-header"><i class="fas fa-headphones"></i> Audio</h2>
-        <div class="row">
-          <div class="col-4">
-            <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_03.jpeg" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
-          </div>
-          <div class="col-4">
-            <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_03.jpg" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
-          </div>
-          <div class="col-4">
-            <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_02.png" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
-          </div>
-        </div>
-        <!-- TODO: use this link to toggle all products in this category -->
-        <a href="#">See All</a>
+      <div class="col-2 border">
+        left side
       </div>
+      <!-- / end of left side -->
 
-      <div class="category-sections">
-          <h2 class="category-header"><i class="fas fa-microchip"></i> Tech &amp; Gadgets</h2>
-        <div class="row">
-          <div class="col-4">
+      <div class="col-8">
+        <h2 class="productpage-header h1" id="audio">Audio <small class="text-muted">headphones</small></h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur!</p>
+
+        <div class="audio-products_display">
+          <div class="audio-product">
             <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_02.png" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
+            <figure class="figure">
+              <img src="img/products/headphones_14.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
           </div>
-          <div class="col-4">
+
+          <div class="audio-product">
             <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_03.jpeg" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
+            <figure class="figure">
+              <img src="img/products/headphones_13.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
           </div>
-          <div class="col-4">
+
+          <div class="audio-product">
             <h4 class="product-name">Product Name</h4>
-            <img src="img/products/headphones_03.jpg" alt="product-img">
-            <p class="price">$0.00</p>
-            <button class="btn btn-primary">Add to Cart</button>
+            <figure class="figure">
+              <img src="img/products/headphones_15.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+          <button class="btn btn-block more-audio">View More</button>
+          <div class="see-more">
+            <!-- PLEASE DO NOT REMOVE commented sections - they provide structure for toggle this applies to other categories as well -->
+            <!-- TODO: See all button to show >= nth-child(4)
+            <div class="audio-product">
+              <h4 class="product-name">Product Name</h4>
+              <figure class="figure">
+                <img src="img/products/headphones_16.png" class="figure-img" alt="product-img">
+                <figcaption class="figure-caption">
+                  <p class="price">$0.00</p>
+                  <button class="btn btn-sm btn-primary">Add to Cart</button>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="audio-product">
+              <h4 class="product-name">Product Name</h4>
+              <figure class="figure">
+                <img src="img/products/headphones_17.png" class="figure-img" alt="product-img">
+                <figcaption class="figure-caption">
+                  <p class="price">$0.00</p>
+                  <button class="btn btn-sm btn-primary">Add to Cart</button>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="audio-product">
+              <h4 class="product-name">Product Name</h4>
+              <figure class="figure">
+                <img src="img/products/headphones_05.png" class="figure-img" alt="product-img">
+                <figcaption class="figure-caption">
+                  <p class="price">$0.00</p>
+                  <button class="btn btn-sm btn-primary">Add to Cart</button>
+                </figcaption>
+              </figure>
+            </div>
+            -->
           </div>
         </div>
-        <!-- TODO: use this link to toggle all products in this category -->
-        <a href="#">See All</a>
+        <!-- /.audio-products -->
+ 
+
+        <div class="hero-section hero-section-tech">
+          
+        </div>
+        <h2 class="productpage-header h1" id="tech">Tech <small class="text-muted">&amp; Gadgets</small></h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur!</p>
+
+        <div class="audio-products_display">
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_14.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_13.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_15.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- TODO:  add correct structure for hiding-->
+          <button class="btn more-audio">See More</button>
+          
+          <!-- <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_16.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_17.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_05.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+          -->
+        </div>
+        <!-- /.tech-products -->
+
+        <div class="hero-section hero-section-tech">
+          
+        </div>
+        <h2 class="productpage-header h1" id="computers">Computers <small class="text-muted">laptops &amp; desktops</small></h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur!</p>
+
+        <div class="audio-products_display">
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_14.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_13.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_15.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- TODO:  add correct structure for hiding-->
+          <button class="btn more-audio">See More</button>
+          <!-- <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_16.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_17.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_05.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+          -->
+        </div>
+        <!-- /.tech-products -->
+
+
+
+        <div class="hero-section hero-section-tech">
+          
+        </div>
+        <h2 class="productpage-header h1" id="accessories">Accessories</h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur!</p>
+
+        <div class="audio-products_display">
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_14.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_13.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_15.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- TODO:  add correct structure for hiding-->
+          <button class="btn btn-block more-tech">See More</button>
+          
+          <!-- <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_16.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_17.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="audio-product">
+            <h4 class="product-name">Product Name</h4>
+            <figure class="figure">
+              <img src="img/products/headphones_05.png" class="figure-img" alt="product-img">
+              <figcaption class="figure-caption">
+                <p class="price">$0.00</p>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </figcaption>
+            </figure>
+          </div>
+          -->
+        </div>
+        <!-- /.tech-products -->
       </div>
+      <!-- / end of middle container -->
+
+      <div class="col-2 border">
+        aside
+      </div>
+      <!-- / end of aside -->
     </div>
   </div>
   <!--.container-->
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <footer>&copy; 2018 GwG</footer>
+
+
+  <!-- jQuery, Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/products.js"></script>
 </body>
 </html>
