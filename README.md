@@ -6,6 +6,11 @@ The purpose of this **practice repository** is to get comfortable using the fron
 
 :warning: **IMPORTANT: Please fork this repository to _your_ account and work as you would locally from there.** Please refer to the [CONTRIBUTING](https://github.com/GWGweb-projectgroup/practice-project/blob/master/CONTRIBUTING.md) file for more information.
 
+## Progress
+This section will be updated so that any newcomers can quickly view the progress of our project!
+
+![](img/site-so-far.jpg)
+
 
 
 ###  Table of Contents
@@ -153,6 +158,7 @@ Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://gi
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
