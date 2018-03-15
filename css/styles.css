@@ -87,6 +87,11 @@ nav {
 .productpage-header {
   margin-bottom: 2rem;
 }
+
+.see-more {
+  visibility: hidden;
+}
+
 .dj-mixing,
 .dj-shades {
   position: absolute;
