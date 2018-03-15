@@ -6,10 +6,14 @@ The purpose of this **practice repository** is to get comfortable using the fron
 
 :warning: **IMPORTANT: Please fork this repository to _your_ account and work as you would locally from there.** Please refer to the [CONTRIBUTING](https://github.com/GWGweb-projectgroup/practice-project/blob/master/CONTRIBUTING.md) file for more information.
 
+## Progress
+This section will be updated so that any newcomers can quickly view the progress of our project!
+
+![](img/site-so-far.jpg)
+
 
 
 ###  Table of Contents
-[Website Ideas](#website-ideas)
 
 [Learning Git and GitHub](#learning-git-and-github)
 
@@ -22,22 +26,7 @@ The purpose of this **practice repository** is to get comfortable using the fron
 [Teams](#teams)
 
 
-## Website Ideas
-This is short list of ideas that are on the table. Feel free to add more, but let's try to wrap up the concept in a week. **near 3/10**
-
-* a site compiling links, tutorials, and articles on the different aspects of web developemnt for beginner's. This would ultimately be a site where the following class could visit and learn the best resources on how to tackle the challenge lessons from the course - anything that has helped us and others (git/Github links, JavaScript articles, motivational tips, etc.) towards moving on to the *Front End Nanodegree* course and becoming a web developer in general
-
-* a mock online storefront
-
-* mock social network main page
-
-* build a small CSS _component framework_
-
-We can think about and expand on these concepts a little more, **1 week** should be plenty of time to come up with a fun, quick, and easy project. My pick is the resources site!
-
-[[back to top]](#readme)
-
-## Learning Git and Github 
+## Learning Git and Github
 If you haven't already, please begin learning **the fundamentals of git** and **collaborating on GitHub**. Most of the fundamental learning will involve using git on your local machine and we will be using GitHub's collaborative features to build together.
 
 > #### This is necessary, especially if you plan to contribute code to the project.
@@ -78,9 +67,9 @@ Here's some links that were passed around in the forums that I believe are some 
 
 
 ## Project Team Sign Up
- 
+
 > **Instruction:** Let's keep this process simple!
-> 
+>
 >The only change you will be making for now is adding your name to whichever team you'd like to contribute with using the format below. Add your name to a team  and push your changes to the main repo's **dev** branch, creating a pull request. Once approved, the changes will be merged
 
 **This syntax creates a table in Markdown, all you have to do is edit/insert your information like so:**
@@ -91,7 +80,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 (your name)  | (your @)     | your @  | optional link
 ```
  You'll get it when you see how others have done it. If not, just ask someone. This list will determine who the contributors are for this project. Adding your name to a table is as easy as separating your info with the **pipe** character like this:
- 
+
 ```name | disc forum name | slack name | (optional link) ```
 
 
@@ -118,6 +107,9 @@ Contributors in this group will create a mockup/wireframe/sketch of what the sit
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+
 
 ### Initial HTML development
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
@@ -126,6 +118,8 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
 
 ### HTML refactoring and optimization
@@ -135,6 +129,11 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Michael Kroth | Quattrodog | Quattrodog | [github/flyingdad](https://github.com/FlyingDad)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
+
+
 
 ### CSS refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***stylesheet*** file *(checking syntax errors, etc.)*
@@ -144,6 +143,10 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
@@ -152,13 +155,17 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
+Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-(your name)  | (your @)     | your @  | optional link
+Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 
 ### Copy and grammar editing
 Contributors in this group will help spot grammatical and spelling errors within the site's body & content.
@@ -168,7 +175,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 
 ### Git Assistance
-Contributors in this group will 
+Contributors in this group will
 
 * help manage the main project repo *practice-project*  
 * help others with git and pull requests on Github and  
