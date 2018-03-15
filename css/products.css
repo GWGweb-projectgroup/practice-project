@@ -39,8 +39,6 @@ nav {
 
 /* Audio Products section styles*/
 
-/* Need to structure css to include products other than audio as well */
-
 .hero-section-audio {
   background: url(../img/products/club-back.jpg);
   position: relative;
@@ -87,11 +85,6 @@ nav {
 .productpage-header {
   margin-bottom: 2rem;
 }
-
-.see-more {
-  visibility: hidden;
-}
-
 .dj-mixing,
 .dj-shades {
   position: absolute;
@@ -112,7 +105,4 @@ nav {
 
 footer {
   text-align: center;
-  color: white;
-  background: gray;
-  padding: 1.5rem;
 }
