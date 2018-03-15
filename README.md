@@ -119,6 +119,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
 Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
 
 ### HTML refactoring and optimization
@@ -130,6 +131,7 @@ Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/c
 Michael Kroth | Quattrodog | Quattrodog | [github/flyingdad](https://github.com/FlyingDad)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
 
 
@@ -144,6 +146,7 @@ Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
@@ -154,6 +157,7 @@ Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 
 ### Asset gathering
