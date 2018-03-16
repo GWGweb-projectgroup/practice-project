@@ -15,18 +15,18 @@ nav {
 
 /* layout styles */
 
-.hero-section,
-.hero-section-audio {
+.banner {
   height: 260px;
   margin-bottom: 2rem;
 }
 
 
 
-.hero-section {
-  background: url(../img/products/tablet_06.jpg) no-repeat;
-  background-size: 400px 100%;
-}
+
+
+
+
+
 
 .category-sections {
   border-bottom: 1px solid gray;
@@ -49,48 +49,79 @@ nav {
 
 /* Need to structure css to include products other than audio as well */
 
-.hero-section-audio {
-  background: url(../img/products/club-back.jpg);
-  position: relative;
-  background-size: contain;
-}
 
-.audio-products_display {
+
+
+
+
+
+/* Products styles */
+
+.products-display {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: center;
 }
 
-.audio-product {
+
+.product {
   text-align: center;
   margin-bottom: 3.2rem;
 }
 
-.audio-product .product-name {
+
+
+
+
+
+
+.product-name {
   margin-bottom: 2.2rem;
 }
 
-.audio-product img {
+
+
+
+
+
+.product-img {
   width: 210px;
   height: 400px;
   margin-bottom: 2rem;
   max-width: 100%;
   max-height: 180px;
-  /* background: #fff; */
   transition: transform .2s ease-in-out;
 }
 
-.audio-product img:hover {
+
+
+
+
+.product-img:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   border-radius: 2px;
   cursor: pointer;
 }
 
-.audio-product .price {
+
+
+
+
+.product-price {
   font-size: 1.3rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 .productpage-header {
   margin-bottom: 2rem;
