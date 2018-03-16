@@ -2,6 +2,7 @@
   --main-font: Quicksand;
 }
 
+
 /* Global styles */
 
 body {
@@ -12,48 +13,20 @@ nav {
   margin-bottom: 1rem;
 }
 
+footer {
+  text-align: center;
+  color: white;
+  background: gray;
+  padding: 1.5rem;
+}
+
 
 /* layout styles */
 
-.banner {
+.page-banner {
   height: 260px;
   margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
-.category-sections {
-  border-bottom: 1px solid gray;
-  margin-bottom: 2rem;
-}
-
-.category-header {
-  margin-top: 2rem;
-  font-weight: bold;
-  padding-bottom: 2rem;
-}
-
-.productpage-header+p {
-  margin-bottom: 2rem;
-}
-
-
-
-/* Audio Products section styles*/
-
-/* Need to structure css to include products other than audio as well */
-
-
-
-
-
-
 
 /* Products styles */
 
@@ -64,26 +37,18 @@ nav {
   align-content: center;
 }
 
+.product-header+p {
+  margin-bottom: 2rem;
+}
 
 .product {
   text-align: center;
   margin-bottom: 3.2rem;
 }
 
-
-
-
-
-
-
 .product-name {
   margin-bottom: 2.2rem;
 }
-
-
-
-
-
 
 .product-img {
   width: 210px;
@@ -94,10 +59,6 @@ nav {
   transition: transform .2s ease-in-out;
 }
 
-
-
-
-
 .product-img:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -105,53 +66,25 @@ nav {
   cursor: pointer;
 }
 
-
-
-
-
 .product-price {
   font-size: 1.3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-.productpage-header {
+.product-header {
   margin-bottom: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 .see-more {
   visibility: hidden;
 }
 
-.dj-mixing,
-.dj-shades {
-  position: absolute;
-  bottom: 0;
-}
-
-.dj-mixing {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 200px;
-}
-
-.dj-shades {
-  height: 300px;
-  right: -10px;
-}
-
-footer {
-  text-align: center;
-  color: white;
-  background: gray;
-  padding: 1.5rem;
-}
