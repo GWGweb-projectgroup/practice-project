@@ -131,8 +131,8 @@ Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/c
 Michael Kroth | Quattrodog | Quattrodog | [github/flyingdad](https://github.com/FlyingDad)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
+Danny Jackson | n/a			| @Dan	  | [github/djsfiles](https://gitjub.com/djsfiles)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
-
 
 
 ### CSS refactoring and optimization
@@ -157,6 +157,7 @@ Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Danny Jackson | n/a | @Dan | [github/djsfiles](https://github.com/djsfiles)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 
