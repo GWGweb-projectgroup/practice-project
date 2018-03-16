@@ -6,6 +6,10 @@ body {
   font-family: var(--main-font), Arial, sans-serif;
 }
 
+p {
+  margin-top: 2rem;
+}
+
 .hero-section,
 .hero-section-audio {
   height: 260px;
@@ -36,11 +40,32 @@ nav {
   margin-bottom: 2rem;
 }
 
+.pricing {
+  display: inline-block;
+  margin: 2rem;
+}
 
 /* Audio Products section styles*/
 
 /* Need to structure css to include products other than audio as well */
 
+/* single product defaults */
+.default-hero {
+  height: 150px;
+  background-image: url(http://placehold.it/730x150);
+  padding: 1.3rem;
+}
+
+.full-product {
+  margin: 2rem;
+}
+
+.full-product img {
+  max-width: 100%;
+  /* will need to fix sizing on mobile */
+}
+
+/* Audio Hero*/
 .hero-section-audio {
   background: url(../img/products/club-back.jpg);
   position: relative;
@@ -111,8 +136,11 @@ nav {
 }
 
 footer {
+  width: 100%;
   text-align: center;
+  background-color: gray;
   color: white;
-  background: gray;
+  margin-top: 1rem;
   padding: 1.5rem;
+  font-size: .75rem;
 }
