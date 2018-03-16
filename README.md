@@ -125,7 +125,7 @@ Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/c
 Michael Kroth | Quattrodog | Quattrodog | [github/flyingdad](https://github.com/FlyingDad)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev), [My personal hosting / dev site](https://elementwebdev.com)
 Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
-
+Danny Jackson | n/a			| @Dan	  | [github/djsfiles](https://gitjub.com/djsfiles)
 
 
 ### CSS refactoring and optimization
