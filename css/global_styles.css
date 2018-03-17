@@ -28,6 +28,13 @@ footer {
   margin-bottom: 2rem;
 }
 
+.audio-section,
+.tech-section,
+.computers-section,
+.accessories-section {
+  margin-bottom: 2rem;
+}
+
 /* Products styles */
 
 .products-display {
@@ -78,3 +85,42 @@ footer {
   visibility: hidden;
 }
 
+
+/* Reviews section */
+
+.product-reviews .review {
+  width: 210px;
+  text-align: center;
+}
+
+.product-reviews .customer-img {
+  border-radius: 100px;
+  margin-bottom: 0.9rem;
+}
+
+.product-reviews .customer-info {
+  color: #909090;
+}
+
+.product-reviews {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.product-reviews .rating-star {
+  width: 30px;
+  /* height: 45px; */
+}
+
+.product-reviews .customer-rating {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.product-reviews blockquote {
+  font-style: italic;
+}
