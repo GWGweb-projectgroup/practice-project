@@ -9,9 +9,9 @@ The purpose of this **practice repository** is to get comfortable using the fron
 ## Progress
 This section will be updated so that any newcomers can quickly view the progress of our project!
 
-![](img/site-so-far.jpg)
+[view the website](https://gwgweb-projectgroup.github.io/practice-project/)
 
-[view the working copy](https://elementwebdev.com/gwg)
+![](img/site-so-far.jpg)
 
 
 ###  Table of Contents
