@@ -9,15 +9,18 @@ body {
   font-family: var(--main-font), Arial, sans-serif;
 }
 
-nav {
-  margin-bottom: 1rem;
-}
-
 footer {
   text-align: center;
   color: white;
   background: gray;
   padding: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 
@@ -34,6 +37,7 @@ footer {
 .accessories-section {
   margin-bottom: 2rem;
 }
+
 
 /* Products styles */
 
