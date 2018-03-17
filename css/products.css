@@ -1,65 +1,34 @@
-/* Computers section styles */
-
-.computers-nav {
-  margin-bottom: 0;
+.banner-computer {
+  background: url(../img/products/computer_options.jpg);
+  background-size: cover;
 }
 
-#computers-hero {
-  background-image: url("../img/products/computer_options.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  height: 75vh;
-  width: 100%;
+.banner-audio {
+  background: url(../img/products/audio_setup.jpg);
+  background-size: cover;
 }
 
-.computers-hero-content {
-  position: relative;
-}
+
+/* Global product page styles */
 
 .caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -65%);
-  width: 100%;
-  border-radius: 50%;
-  background: black;
-  width: 31.25rem;
-  height: 31.25rem;
-  color: white;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 0.01rem;
+  text-align: center;
 }
 
 .caption h1 {
   font-size: 2.25rem;
-  width: 80%;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
+.caption h1,
 .caption p {
-  font-size: 1.125rem;
-  margin-top: 1.5rem;
+  color: #fff;
 }
 
-.caption button {
-  margin-top: 3rem;
-  line-height: 2;
+.overshadow {
+  margin: 0 -15px;
+  background: black;
+  opacity: .75;
+  padding: 1rem 0 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
