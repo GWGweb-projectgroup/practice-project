@@ -21,7 +21,7 @@ footer {
 }
 
 
-/* layout styles */
+/* Layout styles */
 
 .page-banner {
   height: 260px;
@@ -86,7 +86,14 @@ footer {
 }
 
 
-/* Reviews section */
+/* Reviews section styles */
+
+.product-reviews {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 
 .product-reviews .review {
   width: 210px;
@@ -102,16 +109,8 @@ footer {
   color: #909090;
 }
 
-.product-reviews {
-  margin-bottom: 2rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.product-reviews .rating-star {
-  width: 30px;
-  /* height: 45px; */
+.product-reviews blockquote {
+  font-style: italic;
 }
 
 .product-reviews .customer-rating {
@@ -121,6 +120,6 @@ footer {
   align-items: flex-start;
 }
 
-.product-reviews blockquote {
-  font-style: italic;
+.product-reviews .rating-star {
+  width: 30px;
 }
