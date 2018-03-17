@@ -3,9 +3,16 @@
 
 /* computers page */
 
+
 .banner-computer {
   background: url(../img/products/computer_options.jpg);
   background-size: cover;
+  
+}
+
+.banner-audio {
+  background: url(../img/products/audio_setup.jpg);
+  background-size: cover;  
 }
 
 .computers-hero-content {
