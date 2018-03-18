@@ -107,10 +107,7 @@ Contributors in this group will create a mockup/wireframe/sketch of what the sit
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
-Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
-
 
 ### Initial HTML development
 Contributors in this group will work with the wireframe and layout design team to create the initial *index.html* file.
@@ -119,6 +116,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
+Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 
 
 ### HTML refactoring and optimization
@@ -149,6 +147,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
+Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 
 ### Asset gathering
 Contributors in this group will gather resources for images, icons, and media pertaining to the main concept while working closely with the ***wireframe layout*** and ***index.html*** teams for guidance.
@@ -156,6 +155,7 @@ Contributors in this group will gather resources for images, icons, and media pe
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
+Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 
 ### Copy and grammar editing
 Contributors in this group will help spot grammatical and spelling errors within the site's body & content.
