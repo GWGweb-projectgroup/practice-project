@@ -117,9 +117,6 @@ Contributors in this group will work with the wireframe and layout design team t
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-Tyler Van Schaick  | tylervucf   | tyler-vs  | [github/tyler-vs](https://github.com/tyler-vs)
-Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
-Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 
@@ -130,10 +127,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
-Michael Kroth | Quattrodog | Quattrodog | [github/flyingdad](https://github.com/FlyingDad)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
-Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
-Danny Jackson | n/a			| @Dan	  | [github/djsfiles](https://gitjub.com/djsfiles)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
 
@@ -143,10 +137,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
-Daniel Lu    | dandydanny   | dandydanny | [github/dandydanny](https://github.com/dandydanny)
-Daren Morreale  |     | @Daren  | [github/darenjm](https://github.com/darenjm)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
-Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 
@@ -155,11 +146,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-Daren Morreale  |   | @Daren  | [github/darenjm](https://github.com/darenjm)
-Brendan Pettis | @codemetheus | @Brendan(WI) | [github/brendanpettis](https://github.com/brendanpettis)
-Anvarov Akmal | @anvarov | @anvarov | [github/anvarov](https://github.com/anvarov)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
-Danny Jackson | n/a | @Dan | [github/djsfiles](https://github.com/djsfiles)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 
