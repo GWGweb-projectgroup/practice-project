@@ -9,6 +9,12 @@ body {
   font-family: var(--maintext-font), Arial, sans-serif;
   color: var(--maintext-color);
 }
+table {
+  margin-top: 2rem;
+}
+thead {
+  font-weight: 700;
+}
 
 footer {
   text-align: center;
@@ -137,4 +143,30 @@ a h2 {
 
 .product-reviews .rating-star {
   width: 30px;
+}
+
+/* ratings to be implemented */
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #ccc;
+}
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #f8ce0b;
 }
