@@ -24,8 +24,16 @@ h4 {
   margin: 0;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 a h2 {
   color: var(--maintext-color);
+}
+
+.center-div {
+  text-align: center;
 }
 
 /* Layout styles */
