@@ -2,7 +2,6 @@
   --main-font: Quicksand;
 }
 
-
 /* Global styles */
 
 body {
@@ -23,7 +22,6 @@ h4 {
   margin: 0;
 }
 
-
 /* Layout styles */
 
 .page-banner {
@@ -37,7 +35,6 @@ h4 {
 .accessories-section {
   margin-bottom: 2rem;
 }
-
 
 /* Products styles */
 
@@ -79,6 +76,7 @@ h4 {
 
 .product-price {
   font-size: 1.3rem;
+  margin-bottom: 1.5rem;
 }
 
 .product-header {
@@ -88,7 +86,6 @@ h4 {
 .see-more {
   visibility: hidden;
 }
-
 
 /* Reviews section styles */
 

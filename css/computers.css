@@ -1,0 +1,52 @@
+/*Computers page styles */
+
+.location-home,
+.location-travel,
+.location-work {
+  margin-left: auto;
+  color: black;
+}
+
+.location-img-1 {
+  background: url(../img/products/imac.png);
+}
+
+.location-img-2 {
+  background: url(../img/products/tablet_01.jpg);
+}
+
+.location-img-3 {
+  background: url(../img/products/laptop_01.jpg);
+}
+
+.location-img {
+  height: 12.5rem;
+  width: 12.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform .2s ease-in-out;
+}
+
+.location-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Cards */
+
+.card {
+  width: 18rem;
+}
+
+.card-text span {
+  display: inline-flex;
+  width: .5rem;
+}
+
+.card-text span img {
+  width: .938rem;
+  height: .938rem;
+}
