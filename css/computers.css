@@ -1,8 +1,8 @@
 /*Computers page styles */
 
-.home,
-.travel,
-.work {
+.location-home,
+.location-travel,
+.location-work {
   margin-left: auto;
   color: black;
 }
@@ -33,4 +33,20 @@
 .location-img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/* Cards */
+
+.card {
+  width: 18rem;
+}
+
+.card-text span {
+  display: inline-flex;
+  width: .5rem;
+}
+
+.card-text span img {
+  width: .938rem;
+  height: .938rem;
 }
