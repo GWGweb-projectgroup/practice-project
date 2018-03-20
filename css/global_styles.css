@@ -1,6 +1,10 @@
 :root {
   --maintext-font: Quicksand;
   --maintext-color: #343434;
+  --mainpage-bannerheight: 400px;
+  --green: #98C07F;
+  --brown-dark: #beb9a4;
+  --brown-light: #f6f0e4;
 }
 
 /* Global styles */
@@ -8,6 +12,12 @@
 body {
   font-family: var(--maintext-font), Arial, sans-serif;
   color: var(--maintext-color);
+}
+table {
+  margin-top: 2rem;
+}
+thead {
+  font-weight: 700;
 }
 
 footer {
@@ -39,7 +49,7 @@ a h2 {
 /* Layout styles */
 
 .page-banner {
-  height: 260px;
+  height: var(--mainpage-bannerheight);
   margin-bottom: 2rem;
 }
 
@@ -137,4 +147,44 @@ a h2 {
 
 .product-reviews .rating-star {
   width: 30px;
+}
+
+/* main page sliding banner styles */
+.carousel-inner img {
+  width: 100%;
+  height: var(--mainpage-bannerheight);
+}
+
+.comp_mountain h2 {
+  color: var(--green);
+}
+
+.comp_mountain p {
+  color: var(--brown-light);
+}
+
+/* ratings to be implemented */
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #ccc;
+}
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #f8ce0b;
 }
