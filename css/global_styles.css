@@ -1,6 +1,10 @@
 :root {
   --maintext-font: Quicksand;
   --maintext-color: #343434;
+  --mainpage-bannerheight: 400px;
+  --green: #98C07F;
+  --brown-dark: #beb9a4;
+  --brown-light: #f6f0e4;
 }
 
 /* Global styles */
@@ -45,7 +49,7 @@ a h2 {
 /* Layout styles */
 
 .page-banner {
-  height: 260px;
+  height: var(--mainpage-bannerheight);
   margin-bottom: 2rem;
 }
 
@@ -143,6 +147,20 @@ a h2 {
 
 .product-reviews .rating-star {
   width: 30px;
+}
+
+/* main page sliding banner styles */
+.carousel-inner img {
+  width: 100%;
+  height: var(--mainpage-bannerheight);
+}
+
+.comp_mountain h2 {
+  color: var(--green);
+}
+
+.comp_mountain p {
+  color: var(--brown-light);
 }
 
 /* ratings to be implemented */
