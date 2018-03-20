@@ -1,11 +1,19 @@
 :root {
-  --main-font: Quicksand;
+  --maintext-font: Quicksand;
+  --maintext-color: #343434;
 }
 
 /* Global styles */
 
 body {
-  font-family: var(--main-font), Arial, sans-serif;
+  font-family: var(--maintext-font), Arial, sans-serif;
+  color: var(--maintext-color);
+}
+table {
+  margin-top: 2rem;
+}
+thead {
+  font-weight: 700;
 }
 
 footer {
@@ -20,6 +28,18 @@ h2,
 h3,
 h4 {
   margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a h2 {
+  color: var(--maintext-color);
+}
+
+.center-div {
+  text-align: center;
 }
 
 /* Layout styles */
@@ -123,4 +143,30 @@ h4 {
 
 .product-reviews .rating-star {
   width: 30px;
+}
+
+/* ratings to be implemented */
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #ccc;
+}
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #f8ce0b;
 }

@@ -32,3 +32,11 @@
   opacity: .75;
   padding: 1rem 0 2rem;
 }
+
+.product-card .card-img-top {
+  height: 215px;
+}
+
+.product-card .card-body {
+  height: 170px;
+}
