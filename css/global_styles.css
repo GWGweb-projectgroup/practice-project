@@ -42,7 +42,6 @@ a h2 {
 .page-banner {
   height: var(--mainpage-bannerheight);
   margin-bottom: 2rem;
-  padding: 0;
 }
 
 .audio-section,
