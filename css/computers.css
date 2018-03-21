@@ -28,3 +28,17 @@
   width: .938rem;
   height: .938rem;
 }
+
+/*Header Styling*/
+
+.caption {
+	padding: 85px 0;
+}
+
+.page-banner {
+	height: 350px;
+}
+
+.overshadow {
+	height: 350px;
+}
