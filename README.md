@@ -138,6 +138,7 @@ Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/c
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
+Megan Spaulding | | @Megan Spaulding | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 
 ### JavaScript refactoring and optimization
 Contributors in this group will refactor and optimize the structure and semantics of the ***.js*** file, ensuring best practices *(checking syntax errors, etc.)* Contributors may also choose to **initiate interactivity scripting** when necessary.
