@@ -40,3 +40,7 @@
 .product-card .card-body {
   height: 170px;
 }
+
+.product .dropdown {
+  margin: 1.3rem 0;
+}
