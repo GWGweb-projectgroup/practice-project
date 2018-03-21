@@ -1,6 +1,5 @@
 /*Computers page styles */
 
-
 /* location section styles */
 
 .location-header {
@@ -27,4 +26,14 @@
 .card-text span img {
   width: .938rem;
   height: .938rem;
+}
+
+/*Header Styling*/
+
+.caption {
+	padding: 85px 0;
+}
+
+.overshadow {
+	height: var(--mainpage-bannerheight);
 }
