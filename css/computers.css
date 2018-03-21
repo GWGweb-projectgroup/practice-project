@@ -1,6 +1,5 @@
 /*Computers page styles */
 
-
 /* location section styles */
 
 .location-header {
@@ -35,10 +34,6 @@
 	padding: 85px 0;
 }
 
-.page-banner {
-	height: 350px;
-}
-
 .overshadow {
-	height: 350px;
+	height: var(--mainpage-bannerheight);
 }
