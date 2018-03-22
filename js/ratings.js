@@ -1,3 +1,7 @@
+/**
+ * TODO: Put this in a function and insert into products.js 
+ */
+
 // Initial Ratings
 const ratings = {
   // change these to reflect product
