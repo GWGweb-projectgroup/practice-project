@@ -62,6 +62,7 @@ a h2 {
 
 .product-header+p {
   margin-bottom: 2rem;
+
 }
 
 .product {
@@ -96,6 +97,7 @@ a h2 {
 
 .product-header {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .see-more {
