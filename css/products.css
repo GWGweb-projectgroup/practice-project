@@ -73,3 +73,11 @@
 .product-similar {
   grid-area: 3 / 1 / 4 / 5;  
 }
+
+.product-title, .product-section--header {
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  margin-bottom: 2rem;
+}
