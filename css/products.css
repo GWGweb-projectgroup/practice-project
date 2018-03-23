@@ -58,8 +58,20 @@
   grid-row-gap: 2.5rem;
 }
 
+.product-title, .product-section--header {
+  margin-bottom: 1.6rem;
+}
+
 .product-spotlight {
   grid-area: 1 / 1 / 2 / 5;  
+}
+
+.product-spotlight img {
+  border-radius: 2px;
+}
+
+.product-image {
+  margin-bottom: 2rem;
 }
 
 .product-details {
@@ -71,13 +83,11 @@
 }
 
 .product-similar {
-  grid-area: 3 / 1 / 4 / 5;  
+  grid-area: 3 / 1 / 4 / 5;
+  margin-bottom: 3rem; 
 }
 
-.product-title, .product-section--header {
-  margin-bottom: 1rem;
-}
-
-.product-image {
-  margin-bottom: 2rem;
+.product-similar div {
+  display: flex;
+  justify-content: space-around;
 }
