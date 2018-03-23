@@ -4,9 +4,11 @@ body {
   font-family: var(--maintext-font), Arial, sans-serif;
   color: var(--maintext-color);
 }
+
 table {
   margin-top: 2rem;
 }
+
 thead {
   font-weight: 700;
 }
@@ -37,6 +39,7 @@ a h2 {
   text-align: center;
 }
 
+
 /* Layout styles */
 
 .page-banner {
@@ -50,6 +53,7 @@ a h2 {
 .accessories-section {
   margin-bottom: 2rem;
 }
+
 
 /* Products styles */
 
@@ -102,6 +106,7 @@ a h2 {
   visibility: hidden;
 }
 
+
 /* Reviews section styles */
 
 .product-reviews {
@@ -140,7 +145,9 @@ a h2 {
   width: 30px;
 }
 
+
 /* main page sliding banner styles */
+
 .carousel-inner img {
   width: 100%;
   height: var(--mainpage-bannerheight);
@@ -154,11 +161,14 @@ a h2 {
   color: var(--brown-light);
 }
 
+
 /* ratings to be implemented */
+
 .stars-outer {
   position: relative;
   display: inline-block;
 }
+
 .stars-inner {
   position: absolute;
   top: 0;
@@ -167,12 +177,14 @@ a h2 {
   overflow: hidden;
   width: 0;
 }
+
 .stars-outer::before {
   content: "\f005 \f005 \f005 \f005 \f005";
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   color: #ccc;
 }
+
 .stars-inner::before {
   content: "\f005 \f005 \f005 \f005 \f005";
   font-family: 'Font Awesome 5 Free';
