@@ -1,5 +1,6 @@
 /*Computers page styles */
 
+
 /* location section styles */
 
 .location-header {
@@ -11,6 +12,7 @@
   width: 200px;
   border-radius: 100%;
 }
+
 
 /* Card section styles */
 
@@ -28,12 +30,13 @@
   height: .938rem;
 }
 
+
 /*Header Styling*/
 
 .caption {
-	padding: 85px 0;
+  padding: 85px 0;
 }
 
 .overshadow {
-	height: var(--mainpage-bannerheight);
+  height: var(--mainpage-bannerheight);
 }
