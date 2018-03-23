@@ -75,13 +75,15 @@
 
       <div class="col-8 product-full">
 
-        <div>
+        <!-- product spotlight area (left side) -->
+        <div class="product-spotlight">
+
           <!-- product title -->
           <h2 class="product-title">Product <small class="text-muted">title</small></h2>
-  
+
           <!-- product image -->
           <img src="http://placehold.it/300x300" alt="image placeholder">
-  
+
           <!-- ratings area -->
           <div class="review-ratings">
             <div class="stars"></div>
@@ -89,7 +91,7 @@
           </div>
         </div>
 
-        <!-- product details area -->
+        <!-- product details area (right side) -->
         <div class="product-details">
 
           <h3>Details</h3>
@@ -106,12 +108,15 @@
           <p class="price">$0.00</p>
 
           <button class="btn btn-sm btn-success add-to-cart">Add to Cart <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <!-- /.details -->
 
-          <!-- product specs & table area -->
-          <div class="product-specs">
-            <h3>Specs</h3>
+        <!-- product specs & table area -->
+        <div class="product-specs">
+          <h3>Specs</h3>
 
-            <table class="table table-bordered table-responsive table-specs">
+          <div class="table-responsive">
+            <table class="table table-bordered table-specs">
               <thead class="thead-light">
                 <tr>
                   <th scope="col">Type</th>
@@ -130,9 +135,10 @@
               </tbody>
             </table>
           </div>
-          <!-- /.product-specs -->
+          <!-- / responsive table wrapper -->
         </div>
-        <!-- /.details -->
+        <!-- /.product-specs & table -->
+
       </div>
       <!-- / end of single product area -->
 
