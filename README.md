@@ -136,7 +136,7 @@ Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
-Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Cynthia Clinton | cclinc2005jz5kd | @Cynthia | [github/Cynth42](https://github.com/Cynth42)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Megan Spaulding | | @Megan Spaulding | [github/meganspauldingcreative](https://github.com/meganspauldingcreative)
 
@@ -145,7 +145,7 @@ Contributors in this group will refactor and optimize the structure and semantic
 
 Name         | Disc Forum @ | Slack @ | Link (optional)
 -----        | -----        | -----   | -----
-Cynthia Clinton | cclinc2005jz5kd | @Cynth45 | [github/Cynth42](https://github.com/Cynth42)
+Cynthia Clinton | cclinc2005jz5kd | @Cynthia | [github/Cynth42](https://github.com/Cynth42)
 Dionne Petty |   | @Dionne | [github/ddpetty](https://github.com/ddpetty)
 Ivan Huddleston | taskmaster | taskmaster | [github/elementWebDev](https://github.com/elementWebDev)
 Chris Neal   | chrisneal    | Chris N | [github/chrisvneal](https://github.com/chrisvneal/GWGpractice)
