@@ -78,6 +78,13 @@ a h2 {
   margin-bottom: 3.2rem;
 }
 
+.product-container {
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 .product-name {
   margin-bottom: 2.2rem;
 }
@@ -111,6 +118,11 @@ a h2 {
   visibility: hidden;
 }
 
+.more-btn {
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
 /* Reviews section styles */
 
 .product-reviews {
@@ -118,6 +130,7 @@ a h2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+
 }
 
 .product-reviews .review {
@@ -187,4 +200,3 @@ a h2 {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   color: #f8ce0b;
-}
