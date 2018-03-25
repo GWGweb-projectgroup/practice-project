@@ -1,0 +1,195 @@
+/* Global styles */
+
+body {
+  font-family: var(--maintext-font), Arial, sans-serif;
+  color: var(--maintext-color);
+}
+
+table {
+  margin-top: 2rem;
+}
+
+thead {
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: gray;
+  padding: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a h2 {
+  color: var(--maintext-color);
+}
+
+.center-div {
+  text-align: center;
+}
+
+
+/* Layout styles */
+
+.page-banner {
+  height: var(--mainpage-bannerheight);
+  margin-bottom: 2rem;
+}
+
+.audio-section,
+.tech-section,
+.computers-section,
+.accessories-section {
+  margin-bottom: 2rem;
+}
+
+
+/* Products styles */
+
+.products-display {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.product-header+p {
+  margin-bottom: 2rem;
+
+}
+
+.product {
+  /* text-align: center; */
+  margin-bottom: 3.2rem;
+}
+
+.product-name {
+  margin-bottom: 2.2rem;
+}
+
+.product-img {
+  width: 210px;
+  height: 400px;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  max-height: 180px;
+  transition: transform .2s ease-in-out;
+}
+
+.product-img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.product-price {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.see-more {
+  visibility: hidden;
+}
+
+
+/* Reviews section styles */
+
+.product-reviews {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.product-reviews .review {
+  width: 210px;
+  text-align: center;
+}
+
+.product-reviews .customer-img {
+  border-radius: 100px;
+  margin-bottom: 0.9rem;
+}
+
+.product-reviews .customer-info {
+  color: #909090;
+}
+
+.product-reviews blockquote {
+  font-style: italic;
+}
+
+.product-reviews .customer-rating {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.product-reviews .rating-star {
+  width: 30px;
+}
+
+
+/* main page sliding banner styles */
+
+.carousel-inner img {
+  width: 100%;
+  height: var(--mainpage-bannerheight);
+}
+
+.comp_mountain h2 {
+  color: var(--green);
+}
+
+.comp_mountain p {
+  color: var(--brown-light);
+}
+
+
+/* ratings to be implemented */
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #f8ce0b;
+}

@@ -1,17 +1,28 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>GwG eCommerce</title>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GwG eCommerce</title>
+  
+    <!-- FontAwesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+  
+    <!-- FontAwesome CSS required for ratings in unicode to be dynamic -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+  
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -27,17 +38,17 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">On Sale</a>
+          <a class="nav-link" href="onsale.html">On Sale</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categories
-              </a>
+                  Products
+                </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="products.html#computers">Computers</a>
-            <a class="dropdown-item" href="products.html#tech">Tech &amp; Gadgets</a>
-            <a class="dropdown-item" href="products.html#audio">Audio</a>
-            <a class="dropdown-item" href="products.html#accessories">Accessories</a>
+            <a class="dropdown-item" href="audio.html">Audio</a>
+            <a class="dropdown-item" href="onsale.html#tech_section">Tech &amp; Gadgets</a>
+            <a class="dropdown-item" href="computers.html">Computers</a>
+            <a class="dropdown-item" href="onsale.html#accessories_section">Accessories</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#"> <i class="fas fa-bookmark mr-2 text-info"></i>Saved Products</a>
           </div>
@@ -56,7 +67,43 @@
 
   <div class="container">
     <div class="row">
-      <div class="hero-section col-12 border">
+      <div class="page-banner col-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+              <div class="carousel-item comp_mountain bg-dark active">              
+                  <div class="row">
+                    <div class="col-7">
+                        <img class="d-block img-fluid" src="img/carousel_img/caraousel_comp_01.jpg" alt="First slide">
+                    </div>
+                    <div class="col-5">
+                      <h2 class="mb-5 display-4">This is one of the biggest deals in the world</h2>
+                      <p class="lead">This is the ultimate go to choice for travelers!</p>
+                    </div>
+                  </div>
+                </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/carousel_img/elects_banner.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/carousel_img/caraousel_drone_02.jpg" alt="Third slide">
+            </div>
+            
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- / end of carousel -->
       </div>
       <div class="col-2 border">
         left side

@@ -1,17 +1,28 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>GwG eCommerce</title>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GwG eCommerce</title>
+  
+    <!-- FontAwesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+  
+    <!-- FontAwesome CSS required for ratings in unicode to be dynamic -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+  
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -61,8 +72,6 @@
         display products according to link clicked
       -->
       <div class="hero-section-audio col-12 border">
-        <img src="img/products/dj.png" class="dj-mixing" alt="dj mixing">
-        <img src="img/products/cooldj.png" class="dj-shades" alt="cool dj">
       </div>
 
       <div class="col-2 border">
@@ -70,39 +79,98 @@
       </div>
       <!-- / end of left side -->
 
-      <div class="col-8">
-        <div class="default-hero">
-          <h2 class="productpage-header h1" id="audio">Category <small class="text-muted">hero</small></h2>
-          <p class="lead">Lorem ipsum dolor, sit amet consectetur!</p>
-        </div>
-        <!-- TODO: 
-          Single Product
-          The structure below can be used as a dropdown appearing under clicked product thumbnail
-        -->
-        <div class="full-product">
-          <h3>Product Name</h3>
-          <div class="container">
-            <img src="http://placehold.it/350x350" alt="image placeholder">
-            <div class="pricing col-xs-8">
-              <p class="price">$0.00</p>
-              <button class="btn btn-sm btn-primary add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+      <!-- Single product area -->
+
+
+      <div class="col-8 product-full">
+
+        <!-- product spotlight area (left side) -->
+        <div class="product-spotlight">
+
+          <!-- product title -->
+          <h2 class="product-title">Product <small class="text-muted">title</small></h2>
+
+          <!-- product image -->
+          <img src="http://placehold.it/280x280" alt="image placeholder" class="product-image">
+
+          <!-- ratings area -->
+          <div class="review-ratings">
+            <h3 class="product-section--header">Reviews</h3>
+            <div class="stars">
+              <img src="img/rating-star.png" alt="rating star" class="rating-star">
+              <img src="img/rating-star.png" alt="rating star" class="rating-star">
+              <img src="img/rating-star.png" alt="rating star" class="rating-star">
             </div>
-            <div class="description">
-              <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci fuga mollitia vitae ex sint blanditiis earum minima?</p>
-              <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-            </div>
-          <!-- /.description -->
+            <button class="btn btn-outline-primary btn-sm">See Reviews</button>
           </div>
-          <!-- /.full-product -->
         </div>
-        <!-- /.col-8 -->
+        <!-- /.product-spotlight -->
+
+        <!-- product details area (right side) -->
+        <div class="product-details">
+          <h3 class="product-section--header">Details</h3>
+
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae dolore nostrum voluptate.</p>
+
+          <div class="product-features">
+            <h3 class="product-section--header">Features</h3>
+
+            <ul>
+              <li class="">Feature 1</li>
+              <li class="">Feature 2</li>
+              <li class="">Feature 3</li>
+              <li class="">1 year guarantee!</li>
+              <li class="">Lowest price guarantee!</li>
+            </ul>
+          </div>
+
+          <p class="price">$0.00</p>
+
+          <button class="btn btn-sm btn-success add-to-cart">Add to Cart <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <!-- /.details -->
+
+        <!-- product specs & table area (bottom) -->
+        <div class="product-specs">
+          <h3 class="product-section--header">Specs</h3>
+
+          <div class="table-responsive">
+            <table class="table table-bordered table-specs">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Type</th>
+                  <th scope="col">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CPU</td>
+                  <td>3.2 Ghz 8-core</td>
+                </tr>
+                <tr>
+                  <td>RAM</td>
+                  <td>16 GB</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- / responsive table wrapper -->
+        </div>
+        <!-- /.product-specs & table -->
+
+        <div class="product-similar">
+          <h2 class="product-section--header">Similar Products</h2>
+          <div>
+            <img src="http://placehold.it/125x100" alt="image placeholder">
+            <img src="http://placehold.it/125x100" alt="image placeholder">
+            <img src="http://placehold.it/125x100" alt="image placeholder">
+            <img src="http://placehold.it/125x100" alt="image placeholder">
+          </div>
+        </div>
+
       </div>
-      <!-- / end of middle container -->
-      
+      <!-- / end of single product area -->
+
       <div class="col-2 border">
         aside
       </div>
@@ -111,13 +179,14 @@
     <!-- /.row -->
   </div>
   <!-- /.container-->
-  
+
   <footer>&copy; 2018 GwG</footer>
 
   <!-- jQuery, Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="js/products.js"></script>
+  <script src="js/ratings.js"></script>
 </body>
+
 </html>

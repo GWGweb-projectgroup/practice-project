@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
   <head>
@@ -26,29 +26,28 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">GwG MockStore</a>
-
+    <a class="navbar-brand" href="index.html">GwG MockStore</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="onsale.html">On Sale</a>
+          <a class="nav-link" href="#">On Sale</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Products
-                    </a>
+            Categories
+          </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item active" href="audio.html">Audio</a>
-            <a class="dropdown-item" href="onsale.html#tech_section">Tech &amp; Gadgets</a>
-            <a class="dropdown-item" href="computers.html">Computers</a>
-            <a class="dropdown-item" href="onsale.html#accessories_section">Accessories</a>
+            <a class="dropdown-item" href="#computers">Computers</a>
+            <a class="dropdown-item" href="#tech">Tech &amp; Gadgets</a>
+            <a class="dropdown-item" href="#audio">Audio</a>
+            <a class="dropdown-item" href="#accessories">Accessories</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#"> <i class="fas fa-bookmark mr-2 text-info"></i>Saved Products</a>
           </div>
@@ -64,38 +63,32 @@
     </div>
   </nav>
   <!-- /.nav -->
-
+  
   <div class="container">
-    <div class="row">
-      <div class="page-banner banner-audio col-12">
-        <div class="overshadow">
-          <div class="caption">
-            <h1 class="font-weight-bold">It doesn't matter where you are in the world.</h1>
-            <p class="lead">We offer many audio choices you can hear for miles.</p>
-          </div>
+    <p>To edit the rating for now:</p>
+    <ul>
+      <li>Edit <a href="js/ratings.js">ratings.js</li></a>
+    </ul>
+
+    <!-- Ratings -->
+     <div class="ratings">
+      <!-- sony is an example -->
+      <div class="sony">
+        <div class="stars-outer">
+          <div class="stars-inner"></div>
         </div>
-      </div>
-
-      <div class="col-2 border">
-        left side
-      </div>
-      <!-- / end of left side -->
-
-      <div class="col-10">
-
-
+        <span class="number-rating"></span>
       </div>
     </div>
-    <!--.container-->
-    <footer>&copy; 2018 GwG</footer>
+    <!-- /.ratings -->
+  </div>
 
 
-    <!-- Scripts -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <!-- jQuery, Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- jQuery, Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/ratings.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,1384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>GwG eCommerce</title>
+
+  <!-- FontAwesome CSS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+
+  <!-- FontAwesome CSS required for ratings in unicode to be dynamic -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">GwG MockStore</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="onsale.html">On Sale</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="audio.html">Audio</a>
+            <a class="dropdown-item" href="onsale.html#tech_section">Tech &amp; Gadgets</a>
+            <a class="dropdown-item" href="computers.html">Computers</a>
+            <a class="dropdown-item" href="onsale.html#accessories_section">Accessories</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-bookmark mr-2 text-info"></i>Saved Products</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Distributor's Account</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- /.nav -->
+
+  <!--<div class="container">
+    <div class="row">-->
+      <!-- TODO:
+        add hero-switch class to switch image
+        transition to hide products
+        display products according to link clicked
+      -->
+
+      <!--<div class="page-banner col-12 border">
+      </div>-->
+
+<div class="container">
+   <div class="row">
+    <div class="page-banner col-12">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+      <div class="carousel-item discount   bg-gradient-light active">
+       <div class="row">
+       <div class="col-6">
+        <img class="d-block img-fluid" src="img/labels/big-sale-offers.png" alt="First slide">
+      </div>
+      <div class="col-6">
+        <h2 class="mb-5 display-4">This is one of the biggest deals in the world for headphones</h2>
+        <p class="lead">Grab yours before the sale ends!</p>
+      </div>
+    </div>
+  </div>
+
+   <div class="carousel-item">
+    <div class="row">
+      <div class="col-6">
+       <img class="d-block img-fluid" src="img/labels/discount_01.png" alt="Second slide">
+     </div>
+     <div class="col-6">
+      <img class="d-block img-fluid" src="img/products/headphones_14.png" alt="Second slide">
+    </div>
+   </div>
+ </div>
+   <div class="carousel-item">
+     <div class="row">
+      <div class="col-6">
+      <img class="d-block img-fluid" src="img/labels/discount_02.png" alt="Third slide">
+    </div>
+    <div class="col-6">
+     <img class="d-block img-fluid" src="img/products/headphones_13.png" alt="Third slide">
+    </div>
+    </div>
+  </div>
+   <div class="carousel-item">
+    <div class="row">
+      <div class="col-6">
+        <img class="d-block img-fluid" src="img/labels/discount_02.png" alt="Fourth slide">
+     </div>
+      <div class="col-6">
+       <img class="d-block img-fluid" src="img/products/headphones_15.png" alt="Fourth slide">
+      </div>
+     </div>
+   </div>
+ </div>
+ <hr>
+ <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+ <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+ <span class="sr-only">Previous</span>
+ </a>
+ <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+ <span class="carousel-control-next-icon" aria-hidden="true"></span>
+ <span class="sr-only">Next</span>
+ </a>
+  </div>
+ </div>
+  <!-- / end of carousel -->
+
+
+      <div class="col-2 border">
+        left side
+      </div>
+      <!-- / end of left side -->
+
+      <div class="col-10">
+
+        <div class="row">
+          <div class="col-12">
+            <!-- Audio Section -->
+            <section class="audio-section">
+
+              <h2 class="product-header h1" id="audio_section">Audio
+                <small class="text-muted">headphones</small>
+              </h2>
+
+              <div class="products-display">
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/headphones_14.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/headphones_14.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/headphones_13.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/headphones_13.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/headphones_07.jpg" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/headphones_15.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!-- / end of .products-display -->
+
+
+              <div class="product-reviews">
+                <div class="review">
+                  <img src="img/user_female_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Michelle K., </span>
+                      <span class="location">Maryland</span>
+                    </p>
+                    <blockquote class="customer-quote">What an awesome deal, these headphones are everything!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Danny M., </span>
+                      <span class="location">Florida</span>
+                    </p>
+                    <blockquote class="customer-quote">I never thought these headphones would sound soooo good!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_02.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Alex W., </span>
+                      <span class="location">Virginia</span>
+                    </p>
+                    <blockquote class="customer-quote">I finally completed building my home studio! These headphones are great!!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+                <!-- /.review -->
+              </div>
+              <!-- / end of .product-reviews -->
+
+              <button class="btn btn-block btn-primary more-audio">View More</button>
+
+
+            </section>
+            <!-- / end of .audio-section -->
+
+            <!-- Tech Section -->
+            <section class="tech-section">
+
+              <h2 class="product-header h1" id="tech_section">Tech
+                <small class="text-muted">&amp; gadgets</small>
+              </h2>
+
+              <div class="products-display">
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/drone_03.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/drone_03.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/drone_01.jpg" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/drone_01.jpg" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/drone_02.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/drone_02.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!-- / end of .products-display -->
+
+              <div class="product-reviews">
+                <div class="review">
+                  <img src="img/user_female_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Michelle K., </span>
+                      <span class="location">Maryland</span>
+                    </p>
+                    <blockquote class="customer-quote">What an awesome deal, these headphones are everything!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Danny M., </span>
+                      <span class="location">Florida</span>
+                    </p>
+                    <blockquote class="customer-quote">I never thought these headphones would sound soooo good!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_02.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Alex W., </span>
+                      <span class="location">Virginia</span>
+                    </p>
+                    <blockquote class="customer-quote">I finally completed building my home studio! These headphones are great!!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+              </div>
+              <!-- / end of .product-reviews -->
+
+
+              <button class="btn btn-block btn-primary more-audio">View More</button>
+            </section>
+            <!-- / end of .tech-section -->
+
+            <!-- Computers Section -->
+            <section class="computers-section">
+              <h2 class="product-header h1" id="computers_section">Computers
+                <small class="text-muted">laptops &amp; desktops</small>
+              </h2>
+
+              <div class="products-display">
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/laptop_01.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/laptop_01.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/laptop_02.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/laptop_02.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/imac.png" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/imac.png" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <!-- / end of .products-display -->
+
+              <div class="product-reviews">
+                <div class="review">
+                  <img src="img/user_female_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Michelle K., </span>
+                      <span class="location">Maryland</span>
+                    </p>
+                    <blockquote class="customer-quote">What an awesome deal, these headphones are everything!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Danny M., </span>
+                      <span class="location">Florida</span>
+                    </p>
+                    <blockquote class="customer-quote">I never thought these headphones would sound soooo good!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_02.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Alex W., </span>
+                      <span class="location">Virginia</span>
+                    </p>
+                    <blockquote class="customer-quote">I finally completed building my home studio! These headphones are great!!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+              </div>
+              <!-- / end of .product-reviews -->
+
+
+              <a href="computers.html" target="_blank">
+                <button class="btn btn-block btn-primary more-audio">View More</button>
+              </a>
+            </section>
+            <!-- / end of .computers-section -->
+
+            <!-- Accessories Section -->
+            <section class="accessories-section">
+              <h2 class="product-header h1" id="accessories_section">Accessories</h2>
+
+              <div class="products-display">
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/tablet_02.jpg" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                        <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                          <span class="caret"></span>
+                        </button>
+                        <div class="dropdown-menu">
+                          <div class="full-product">
+                            <h3>Product Name</h3>
+                            <div class="container">
+                              <img src="img/products/tablet_02.jpg" alt="image placeholder">
+
+                              <!-- Ratings -->
+                              <div class="ratings">
+                                <!-- sony is an example -->
+                                <div class="sony">
+                                  <div class="stars-outer">
+                                    <div class="stars-inner"></div>
+                                  </div>
+                                  <span class="number-rating"></span>
+                                </div>
+                              </div>
+                              <!-- /.ratings -->
+
+                              <div class="pricing col-10">
+                                <p class="price">$0.00</p>
+                                <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                              </div>
+                              <div class="description">
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                  dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                  fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                <ul>
+                                  <li>Feature 1</li>
+                                  <li>Feature 2</li>
+                                  <li>Feature 3</li>
+                                </ul>
+
+                                <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <td>Type</td>
+                                      <td>Description</td>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>CPU</td>
+                                      <td>3.2 Ghz 8-core</td>
+                                    </tr>
+                                    <tr>
+                                      <td>RAM</td>
+                                      <td>16 GB</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- /.description -->
+                            </div>
+                            <!-- /.container -->
+                          </div>
+                          <!-- /.full-product -->
+                        </div>
+                        <!-- /.dropdown-menu -->
+                      </div>
+                      <!-- /.dropdown -->
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/tablet_03.jpg" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/tablet_03.jpg" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="product">
+                  <h4 class="product-name">Product Name</h4>
+                  <figure class="figure">
+                    <img src="img/products/tablet_05.jpg" class="figure-img product-img" alt="product-img">
+                    <figcaption class="figure-caption">
+                      <p class="product-price">$0.00</p>
+                      <!-- WIP: Adding dropdown -->
+                      <div class="dropdown">
+                          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Details
+                            <span class="caret"></span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <div class="full-product">
+                              <h3>Product Name</h3>
+                              <div class="container">
+                                <img src="img/products/tablet_05.jpg" alt="image placeholder">
+
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                  <!-- sony is an example -->
+                                  <div class="sony">
+                                    <div class="stars-outer">
+                                      <div class="stars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                  </div>
+                                </div>
+                                <!-- /.ratings -->
+
+                                <div class="pricing col-10">
+                                  <p class="price">$0.00</p>
+                                  <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </div>
+                                <div class="description">
+                                  <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque. Inventore recusandae
+                                    dolore nostrum voluptate asperiores aspernatur itaque, tempora iusto repellat adipisci
+                                    fuga mollitia vitae ex sint blanditiis earum minima?</p>
+                                  <ul>
+                                    <li>Feature 1</li>
+                                    <li>Feature 2</li>
+                                    <li>Feature 3</li>
+                                  </ul>
+
+                                  <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <td>Type</td>
+                                        <td>Description</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>CPU</td>
+                                        <td>3.2 Ghz 8-core</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>16 GB</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- /.description -->
+                              </div>
+                              <!-- /.container -->
+                            </div>
+                            <!-- /.full-product -->
+                          </div>
+                          <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+                      <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <!-- / end of .products-display -->
+
+              <div class="product-reviews">
+                <div class="review">
+                  <img src="img/user_female_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Michelle K., </span>
+                      <span class="location">Maryland</span>
+                    </p>
+                    <blockquote class="customer-quote">What an awesome deal, these headphones are everything!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_01.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Danny M., </span>
+                      <span class="location">Florida</span>
+                    </p>
+                    <blockquote class="customer-quote">I never thought these headphones would sound soooo good!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+
+                <div class="review">
+                  <img src="img/user_male_02.jpg" alt="customer" class="customer-img">
+                  <div class="customer-info">
+                    <p>
+                      <span class="customer-name">Alex W., </span>
+                      <span class="location">Virginia</span>
+                    </p>
+                    <blockquote class="customer-quote">I finally completed building my home studio! These headphones are great!!</blockquote>
+                  </div>
+                  <div class="customer-rating">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                    <img src="img/rating-star.png" alt="rating star" class="rating-star">
+                  </div>
+                </div>
+              </div>
+              <!-- / end of .product-reviews -->
+
+
+              <button class="btn btn-block btn-primary more-audio">View More</button>
+            </section>
+            <!-- / end of .accessories-section-->
+          </div>
+          <!-- / end of .col-12 -->
+        </div>
+        <!-- / end of products section -->
+      </div>
+      <!--  / end of .row -->
+    </div>
+    <!-- / end of products & reviews -->
+  </div>
+  <!--.container-->
+  <footer>&copy; 2018 GwG</footer>
+
+
+  <!-- jQuery, Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/products.js"></script>
+  <script scr="js/ratings.js"></script>
+</body>
+</html>

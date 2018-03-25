@@ -1,0 +1,42 @@
+/*Computers page styles */
+
+
+/* location section styles */
+
+.location-header {
+  margin-bottom: 1.2rem;
+}
+
+.location-img {
+  height: 180px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+
+/* Card section styles */
+
+.card {
+  width: 18rem;
+}
+
+.card-text span {
+  display: inline-flex;
+  width: .5rem;
+}
+
+.card-text span img {
+  width: .938rem;
+  height: .938rem;
+}
+
+
+/*Header Styling*/
+
+.caption {
+  padding: 85px 0;
+}
+
+.overshadow {
+  height: var(--mainpage-bannerheight);
+}
