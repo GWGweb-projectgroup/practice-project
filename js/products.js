@@ -8,7 +8,27 @@ function inStock() {
 }
 
 /**
- * need to come back for Features to be included it table 
+ *  Filling in product.html
+ */
+
+function singleProduct() {
+  
+  // Setup
+  var productTitle = $('.product-title');
+  var productImage = $('.product-image');
+  var productPrice = $('.price');
+  // TODO: var productRating = $('.rating');
+  var productDescription = $('.description');
+  var productFeatures = $('.product-features');
+  var productSpecs = $('.product-specs');
+  var similarProducts;
+
+  // TODO: Pull product info by id
+
+}
+
+ /**
+ * need to come back to link for Features to be included in table 
  */
 var products = [
   // Computers
