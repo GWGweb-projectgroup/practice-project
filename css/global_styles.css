@@ -44,6 +44,7 @@ a h2 {
 
 .page-banner {
   height: var(--mainpage-bannerheight);
+  max-height: var(--mainpage-bannerheight);
   margin-bottom: 2rem;
 }
 
