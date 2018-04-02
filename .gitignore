@@ -4,6 +4,10 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+xampp
+.vscode
+.code-workspace
+
 
 # Icon must end with two \r
 Icon
