@@ -1,14 +1,20 @@
-<!-- Verify and include all variables -->
+<?php
+  /* TODO:
+   * Verify and include all variables
+   *
+   */
+  //Titles
+  $home_active="active"; $title = "Grow with Google | eCommerce project";
+  $sale_active="active"; $title = "Grow with Google | On Sale";
 
-<!-- Titles -->
-<?php $home_active="active"; $title = "Grow with Google | eCommerce project";?>
-<?php $sale_active="active"; $title = "Grow with Google | On Sale";?>
- <!-- Category Pages -->
-<?php $audio_active="active"; $title = "Grow with Google | Audio";?>
-<!-- Single Product -->
-<?php $product_active="active"; $title = "Grow with Google | $product_name";?>
+  // Category Pages
+  $audio_active="active"; $title = "Grow with Google | ". $category;
 
-<!-- Header and Nav for entire site -->
+  // Single Product
+  $product_active="active"; $title = "Grow with Google | " . $product_name;
+?>
+
+<!-- Header and Nav -->
 <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/header.php';?>
 <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/nav.php';?>
 

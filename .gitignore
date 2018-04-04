@@ -4,9 +4,18 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-xampp
+
+
+# Editors
 .vscode
 .code-workspace
+
+
+# Local Servers
+xampp
+dashboard
+config.php
+connection.php
 
 
 # Icon must end with two \r
@@ -31,3 +40,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+phpsandbox
