@@ -56,6 +56,20 @@ a h2 {
 }
 
 
+.carousel-item .colorado {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  background: black;
+}
+
+.carousel-item .colorado img {
+  height: 200px;
+  width: 33.3%;
+}
+
+
 /* Products styles */
 
 .products-display {
