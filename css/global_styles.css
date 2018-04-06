@@ -46,7 +46,6 @@ a h2 {
   height: var(--mainpage-bannerheight);
   max-height: var(--mainpage-bannerheight);
   margin-bottom: 2rem;
-  border: 1px solid red;
 }
 
 .audio-section,

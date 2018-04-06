@@ -27,10 +27,10 @@
 }
 
 .overshadow {
-  /* margin: 0 -15px; */
+  margin: 0 -15px;
   background: black;
   opacity: .75;
-  /* padding: 1rem 0 2rem; */
+  padding: 1rem 0 2rem;
   height: var(--mainpage-bannerheight);
 }
 
