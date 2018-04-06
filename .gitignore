@@ -5,6 +5,20 @@
 .AppleDouble
 .LSOverride
 
+
+# Editors
+.vscode
+.code-workspace
+
+
+# Local Servers
+dashboard
+webalizer
+xampp
+config.php
+connection.php
+
+
 # Icon must end with two \r
 Icon
 
@@ -27,3 +41,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+phpsandbox

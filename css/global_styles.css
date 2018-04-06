@@ -31,6 +31,11 @@ a:link {
   text-decoration: none;
 }
 
+/* This may change, I noticed bootstrap's navbar.scss has styling   */
+a:active {
+  font-weight: 700;
+}
+
 a h2 {
   color: var(--maintext-color);
 }
