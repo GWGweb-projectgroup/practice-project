@@ -76,6 +76,31 @@ a h2 {
   border-radius: 2px;
 }
 
+#boy-pic  {
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+}
+
+.review-quote {
+  
+}
+
+.review-quote h2 {
+  color: gray;
+  line-height: 2;
+  font-style: italic;
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+  top: 20%;
+}
+
+.review-quote h2::before, .review-quote h2::after {
+  content: '\0022';
+  margin: 5px;
+}
 
 
 
