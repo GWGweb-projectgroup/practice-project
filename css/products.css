@@ -31,6 +31,7 @@
   background: black;
   opacity: .75;
   padding: 1rem 0 2rem;
+  height: var(--mainpage-bannerheight);
 }
 
 .product-card .card-img-top {
