@@ -1,12 +1,3 @@
-// In Stock
-function inStock() {
-  if( inventory > 0) {
-  return "In Stock";
-  } else {
-    return "Out of Stock";
-  }
-}
-
 /**
  *  Filling in product.html
  */
@@ -17,14 +8,14 @@ function singleProduct() {
   var productTitle = $('.product-title');
   var productImage = $('.product-image');
   var productPrice = $('.price');
-  // TODO: var productRating = $('.rating');
+  // WIP: var productRating = $('.rating');
   var productDescription = $('.description');
   var productFeatures = $('.product-features');
   var productSpecs = $('.product-specs');
   var similarProducts;
 
   // TODO: Pull product info by id
-
+    
 }
 
  /**
@@ -117,14 +108,25 @@ var products = [
 ];
 
 
+/**
+ *  WIP:
 
-/*
-// Id for cart to pull from and default values
+ // Id for cart to pull from and default values
 var cart = {
   "1": 2,
   "2": 5,
   "3": 5
 };
 
+
+// In Stock
+
+function inStock() {
+  if( inventory > 0) {
+  return "In Stock";
+  } else {
+    return "Out of Stock";
+  }
+}
 
 */
