@@ -8,10 +8,10 @@
   $sale_active="active"; $title = "Grow with Google | On Sale";
 
   // Category Pages
-  $audio_active="active"; $title = "Grow with Google | ". $category;
+  $audio_active="active"; $title = "Grow with Google | "; //. $category;
 
   // Single Product
-  $product_active="active"; $title = "Grow with Google | " . $product_name;
+  $product_active="active"; $title = "Grow with Google | "; // . $product_name;
 ?>
 
 <!-- Header and Nav -->
