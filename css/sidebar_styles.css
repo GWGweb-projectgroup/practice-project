@@ -1,0 +1,40 @@
+.left-sidebar__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.left-sidebar__list-item, .dropdown-list li {
+  margin-bottom: 2.2em;
+}
+
+
+.left-sidebar__list-item.dropdown {
+  cursor: pointer;
+}
+
+.left-sidebar__header {
+  margin-bottom: .80em;
+}
+
+.left-sidebar__statement {
+  font-size: .90em;
+  font-style: italic;
+}
+
+
+
+.dropdown-list {
+  position: relative;
+  top: -15px;
+}
+
+.dropdown-list ul {
+  padding-left: 2em;
+  list-style: none;
+}
+
+/* drop down styles */
+/* .remove-dropdown {
+  display: none;
+} */

@@ -5,7 +5,7 @@
 
 .banner-audio {
   background: url(../img/products/audio_setup.jpg);
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 
@@ -24,14 +24,6 @@
 .caption h1,
 .caption p {
   color: #fff;
-}
-
-.overshadow {
-  margin: 0 -15px;
-  background: black;
-  opacity: .75;
-  padding: 1rem 0 2rem;
-  height: var(--mainpage-bannerheight);
 }
 
 .product-card .card-img-top {

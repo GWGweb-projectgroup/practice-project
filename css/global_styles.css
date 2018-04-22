@@ -45,6 +45,8 @@ a h2 {
 }
 
 
+
+
 /* Layout styles */
 
 .page-banner {
@@ -86,10 +88,6 @@ a h2 {
   height: 100%;
   /* border: 1px solid blue; */
   margin: 0 auto;
-}
-
-.review-quote {
-  
 }
 
 .review-quote h2 {
