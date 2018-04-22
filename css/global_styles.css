@@ -44,38 +44,7 @@ a h2 {
   text-align: center;
 }
 
-.left-sidebar__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
 
-.left-sidebar__list li {
-  margin-bottom: 2.2em;
-}
-
-.left-sidebar__list .dropdown-list {
-  list-style-type: none;
-  padding-left: 20px;
-  margin-top: 10px;
-}
-
-.left-sidebar__list-item ul {
-  list-style: none;
-  margin-top: 1em;
-  padding-left: 1em;
-}
-
-
-
-.left-sidebar__header {
-  margin-bottom: .80em;
-}
-
-.left-sidebar__statement {
-  font-size: .90em;
-  font-style: italic;
-}
 
 
 /* Layout styles */
