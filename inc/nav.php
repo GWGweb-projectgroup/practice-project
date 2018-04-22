@@ -24,8 +24,6 @@
             <a class="dropdown-item <?php echo $gadgets_active;?>" href="onsale.html#tech_section">Tech &amp; Gadgets</a>
             <a class="dropdown-item <?php echo $comp_active;?>" href="computers.html">Computers</a>
             <a class="dropdown-item <?php echo $acc_active;?>" href="accessories.html">Accessories</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#"> <i class="fas fa-bookmark mr-2 text-info"></i>Saved Products</a>
           </div>
         </li>
         <li class="nav-item">
