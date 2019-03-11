@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	
+
+
+
+<div id="demo">
+	<p></p>
+</div>
+
+<script>
+var numbers = [4, 9, 16, 25, 29];
+var first = numbers.findIndex(myFunction);
+
+document.getElementById("demo").innerHTML = "First number over 18 has index " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+
+<script src="js/vue.js"></script>
+
+<script>
+new Vue({
+  el: '#demo',
+  data: {
+	
+  },
+  methods: {
+	getImage() {
+	  return "./img/large/" + product.Detail_Image_Name;
+	},
+  }
+});
+</script>
+
+</body>
+</html>

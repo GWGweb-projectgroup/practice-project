@@ -1,0 +1,249 @@
+/* === GLOBALS === */
+
+a {
+    color: #999;
+}
+a:hover {
+    color: #f33;
+    text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+.btn-link {
+    color: #f33;
+}
+.btn-link:hover {
+    color: #999;
+}
+.bg-dark, .navbar-bark {
+    background-color: #333;
+}
+/* === HEADER === */
+
+header {
+    background-color: black;
+    /* background-image: linear-gradient(to right, black,  #9b001f); */
+    text-align: center;
+    color: whitesmoke;
+}
+header h1, header p {
+    margin-left: 16px;
+}
+#mainBody {
+    padding-right: 0;
+}
+#sideNav button {
+    padding-left: 0;
+}
+.cue-img {
+    max-width: 100%;
+}
+.logo {
+    background: #000;
+    text-align: center;
+    max-width: 100%;
+}
+#logo {
+    /* width: 800px;
+	height: 600px; */
+    max-width: 100%;
+    height: auto;
+}
+#branding {
+    height: 250px;
+    display: inline-block;
+}
+/* === NAVIGATION === */
+#top-menu {
+    padding: 16px;
+    font-size: 18px;
+}
+.nav-bar {
+    color: #aaa;
+}
+#user i.fas.fa-user {
+    float: right;
+    border: #999 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f33;
+}
+nav a {
+    color: #f33;
+}
+#sideNav {
+    margin: 0;
+    padding: 0;
+}
+#sideNav .card-header h5 button {
+    font-size: 16px;
+}
+#brand-logos {
+    padding: 2em 0;
+    background-color: #000;
+    filter: grayscale(100%);
+    opacity: .9;
+}
+#brand-logos img {
+    max-width: 100px;
+    max-height: 100px;
+    padding: .5em;
+    filter: invert(100%);
+}
+/* === CARD === */
+.card-header {
+    text-align: center;
+    line-height: 3rem;
+}
+.card-body ul li {
+    list-style-type: none;
+}
+.sale-price {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.btn-danger a {
+    color: #e5e5e5;
+}
+/* === MAIN CONTENT === */
+
+.container {
+    max-width: 100%;
+}
+.fade {
+    background-image: linear-gradient(to right, black, crimson);
+    height: 200px;
+    display: inline-block;
+}
+
+/*=== CATEGORIES ===*/
+#categories {
+    display: block;
+    padding-left: 1em;
+    margin: auto;
+}
+.category {
+    background-image: url("../img/thumb/BBELE.JPG");
+    float: left;
+    text-align: center;
+    border: 1px rgba(0,0,0, .1) solid;
+    border-radius: .5em;
+    margin: 0 10px 10px 0;
+/*    width: 30%;*/
+	max-width: 30%;
+    min-width: 272px;
+    /* width: calc((95% - 22px)/3); */
+    height: 200px;
+}
+#cues {
+    background-image: url('../img/thumb/ZZSP.JPG');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+#cases {
+    background-image: url('../img/thumb/ACSC07.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.left {
+    width: 50%;
+    display: inline-block;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(170, 170, 170, 0.8);
+    /* float: right; */
+    padding: 3em 0;
+    display: inline-block;
+    margin-right: -1em;
+    border-radius: 0 .5em .5em 0;
+}
+.right h3 {
+    font-size: 1em;
+/*	line-height: 3em;*/
+}
+.right button {
+    margin: auto; /* alignment */
+	
+}
+/*=== CUES === */
+
+#vertical {
+    margin: 10px 43%;/* text-align: center; */
+}
+.lg-img {
+    width: 900px;
+}
+.lg-rotate {
+    transform: rotate(-90deg);
+    transform-origin: 100%, 0;
+}
+/* === Scroll to Top === */
+
+/* Back to top button */
+#back-top {
+    position: fixed;
+    bottom: 30px;
+    margin-left: 75px;
+}
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin-bottom: 7px;
+    background: #ddd url("up-arrow.png") no-repeat center center;
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover span {
+    background-color: #777;
+}
+/* === FOOTER === */
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background: #c0c0c0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+footer p {
+    padding-top: 2em;
+}
+footer a {
+    color: #555;
+}
+/* === MEDIA QUERIES === */
+
+/* === TEMPORARY === */
+#ship-promo {
+    background: goldenrod;
+    color: #333;
+    margin: 0;
+}
