@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Keywords and Description -->
+    <meta
+      name="keywords"
+      content="Rack Busters, rackbusters, billiards, supplies, pool cues, pool cases, pool supplies, billiard supplies, gameroom, pool training, billiard training"
+    />
+    <meta
+      name="description"
+      content="Offering over 3,000 high quality Billiard and Gameroom Supplies from brands you trust"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="fa/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- VUE js -->
+    <!-- development version, includes helpful console warnings -->
+    <script src="js/vue.js"></script>
+    <title>Rack Busters | Billiards &amp; Game Room Supplies</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div id="top-menu" class="nav-bar">
+        <!-- Signup / Login -->
+        <span id="user"
+          ><a href=""><i class="fas fa-user"></i></a
+        ></span>
+      </div>
+      <!-- TODO: add background in css -->
+      <a href="index.html">
+      <img id="branding" src="rb-logo.jpg" alt="Rack Busters Logo" />
+      <p>Billiard &amp; Game Room Supplies</p>
+      <!-- <p>For the Players</p> -->
+      <p id="ship-promo">
+        <strong>Free Shipping</strong> <em>(on orders over $100)</em>
+      </p>
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div
+          class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#"></a></li>
+          </ul>
+        </div>
+
+        <div class="mx-auto order-0">
+          <a class="navbar-brand mx-auto" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target=".dual-collapse2"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Specials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container" id="mainBody">
+      <div class="row mr-0 pr-0">
+        <!-- Side Navigation -->
+        <div id="sideNav" class="col-sm-5 col-md-3 col-lg-2 bg-dark">
+          <div class="accordion" id="accordionExample">
+            <div class="card bg-dark">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Pool Cues
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul id="pool-cue-brands">
+                    <!-- TODO: need to add dynamic menu -->
+                    <!-- <li><a :href="link">{{ brand }}</a></li> -->
+                    <li><a href="">5280</a></li>
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Athena</a></li>
+                    <li><a href="">Blade</a></li>
+                    <li><a href="">Cuetec</a></li>
+                    <li><a href="">Dufferin</a></li>
+                    <li><a href="">Elite</a></li>
+                    <li><a href="">Griffin</a></li>
+                    <li><a href="">Harley Davidson</a></li>
+                    <li><a href="">Joss</a></li>
+                    <li><a href="">Lucasi</a></li>
+                    <li><a href="">Mayhem</a></li>
+                    <li><a href="">McDermott</a></li>
+                    <li><a href="">McFarland</a></li>
+                    <li><a href="">Meucci</a></li>
+                    <li><a href="">Mezz</a></li>
+                    <li><a href="">Outlaw</a></li>
+                    <li><a href="">Peradon</a></li>
+                    <li><a href="">Riley</a></li>
+                    <li><a href="">Schon</a></li>
+                    <li><a href="">Scorpion</a></li>
+                    <li><a href="">Stealth</a></li>
+                    <li><a href="">Tiger</a></li>
+                    <li><a href="">Trouble Shooter Cues</a></li>
+                    <li><a href="">Valley (one-piece cues)</a></li>
+                    <li><a href="">Viking</a></li>
+                    <li><a href="">Voodoo</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Cue Cases
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul>
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Aramith</a></li>
+                    <li><a href="">Elite</a></li>
+                    <li><a href="">InStroke</a></li>
+                    <li><a href="">Outlaw</a></li>
+                    <li><a href="">Joe Porper</a></li>
+                    <li><a href="">Predator</a></li>
+                    <li><a href="">Scorpion</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Cue Accessories
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul>
+                    <li><a href="">Chalkers</a></li>
+                    <li><a href="">Cue Holders</a></li>
+                    <li><a href="">Joint Protectors</a></li>
+                    <li>
+                      <a href=""
+                        >Shaft Products
+                        <!-- (care) --></a
+                      >
+                    </li>
+                    <li><a href="">Tips</a></li>
+                    <li><a href="">Tip Repair</a></li>
+                    <li><a href="">Tip Tools</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Table Accessories
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul>
+                    <li><a href="">Billiard Balls</a></li>
+                    <li><a href="">Billiard Gloves</a></li>
+                    <li><a href="">Bridge Heads</a></li>
+                    <li><a href="">Cue Balls</a></li>
+                    <!-- DISCONTINUED ??? -->
+                    <!-- <li><a href="">Cone Chalk Holders</a></li> -->
+                    <li><a href="">Chalk</a></li>
+                    <li><a href="">Pool Table Cloth</a></li>
+                    <li><a href="">Lighting</a></li>
+                    <li><a href="">Ball Racks</a></li>
+                    <li><a href="">Brushes</a></li>
+                    <li><a href="">Table Covers</a></li>
+                    <li><a href="">Parts &amp; Repair</a></li>
+                    <li><a href="">Table Cleaning</a></li>
+                    <li><a href="">Wall Racks</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Training Aids
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body  bg-dark">
+                  <ul>
+                    <li><a href="">Books</a></li>
+                    <li><a href="">CD's</a></li>
+                    <li><a href="">DVD's</a></li>
+                    <li><a href="">Tools*</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Game Room
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul>
+                    <li><a href="">Ball Cleaning Machine</a></li>
+                    <li><a href="">Ball Cleaner</a></li>
+                    <li><a href="">Coin Holders</a></li>
+                    <li><a href="">Display Cases</a></li>
+                    <li><a href="">Floor Racks</a></li>
+                    <li><a href="">Furniture</a></li>
+                    <li><a href="">Novelty</a></li>
+                    <li><a href="">Ping Pong</a></li>
+                    <li><a href="">Poker</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="card bg-dark">
+              <div class="card-header" id="headingSeven">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="true"
+                    aria-controls="collapseSeven"
+                  >
+                    Darts
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseSeven"
+                class="collapse"
+                aria-labelledby="headingSeven"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">Need to build nav</div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingEight">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                  >
+                    Clothing
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseEight"
+                class="collapse"
+                aria-labelledby="headingEight"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul>
+                    <li><a href=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingNine">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseNine"
+                    aria-expanded="false"
+                    aria-controls="collapseNine"
+                  >
+                    Links
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingNine"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body bg-dark">
+                  <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <!-- .col -->
+
+        <!-- Main Content -->
+        <div class="col-sm-7 col-md-9 col-lg-10">
+          <!-- <div class="logo">
+				<img src="rb-logo.jpg" id="logo" alt="">
+			</div> -->
+
+
+          <!-- APP: Single Product -->
+          <div class="card" id="app">
+            <div id="itemarea">
+              <div class="card-header">
+                <h1 id="item-contenttitle">
+                  {{ products[3898].Product_Name }}
+                  
+                </h1>
+                {{ randomProduct }}
+                <!-- WIP: -->
+                <div>
+                  
+                  Item# {{ products[3898].Parent_Sku }}
+                  <em><span id="find">(
+					  {{ products.findIndex(x => x.Parent_Sku === 'ZZSP') }} )
+                    </span></em>
+                </div>
+                <!-- <p>{{ products.find(x => x.id === 'ZZSP').Parent_Sku }}</p> -->
+                <!-- <p>{{ products.filter(x => x.id === 'ZZSP').map(x => x.Parent_Sku) }}</p> -->
+                <a href="#vertical" target="_self">
+                  <img src="img/large/zzsp.jpg" class="cue-img" alt="ZZSP" />
+                </a>
+
+                <div class="price">Regular price: $109.00</div>
+                <div class="sale-price">Sale price: $87.20</div>
+                <span class="multiLineOption"
+                  ><span class="itemoption">Weight:&nbsp;</span>
+                  <!-- This will be tricky pulling multiple id's to poplulate options -->
+                  <select name="cue-weight">
+                    <option value="18">18 oz.</option>
+                    <option value="19">19 oz.</option>
+                    <option value="20">20 oz.</option>
+                    <option value="21">21 oz.</option>
+                  </select>
+                </span>
+                <div>
+                  <button class="btn btn-lg btn-danger">
+                    <a href=""><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div id="caption" class="card-body">
+              <!-- <h2>Product Details</h2> -->
+              <!-- access by array id -->
+              <!-- change this so that it's accessed by Parent_Sku not id -->
+              <!-- Another option is to use products array as is -->
+              <!-- <ul v-for="item in products[3898]">
+                <li>{{ item }}</li>
+              </ul> -->
+              <ul id="details">
+                <li></li>
+              </ul>
+              <!-- <dl>
+							<dt>Tip:</dt>
+							<dd>10 layered, vacuum sealed, 13mm proprietary boar skin tip
+							</dd>
+							<dt>Ferrule:</dt>
+							<dd>Glued and screwed, Ivorine III</dd>
+							<dt>Shaft:</dt>
+							<dd>
+								New G-Core Shaft (CT Technology, Triple layer design with
+								Tiger Everest Tip.)
+							</dd>
+							<dt>Joint:</dt>
+							<dd>Wood to wood, stainless steel</dd>
+							<dt>Pin:</dt>
+							<dd>3/8x10</dd>
+							<dt>Rings:</dt>
+							<dd>
+								(shaft and forearm and around wrap) 12 German nickel silver
+								rings
+							</dd>
+							<dt>Collar:</dt>
+							<dd>
+								White w/ Black composite w/ Green Malachite w/ silver rings
+							</dd>
+							<dt>Forearm:</dt>
+							<dd>
+								Birds Eye Maple, Green Malachite shamrock inlays with recon
+								ivory diamond inlays encased in double rings w/ green
+							</dd>
+							<dt>Wrap:</dt>
+							<dd>Black Irish Linen with green specks</dd>
+							<dt>Sleeve:</dt>
+							<dd>
+								Birds Eye Maple &amp; Green Malachite shamrock inlays with
+								recon ivory diamond inlays encased in double rings w/ green
+							</dd>
+							<dt>Plate:</dt>
+							<dd>White composite with green McDermott Logo</dd>
+							<dt>Bumper:</dt>
+							<dd>Black rubber pops in</dd>
+						</dl> -->
+            </div>
+          </div>
+          <!-- <img id="vertical" src="img/large/M16A-90.jpg" alt="" /> -->
+        </div>
+      </div>
+      <!-- .row -->
+    </div>
+    <!-- .container -->
+    <div class="clear"></div>
+	
+	<!-- TODO: -->
+    <div id="similar-products">
+		<h3>Similar Products</h3>
+		<!-- <span>{{ randomProduct }}</span>
+		<span>{{ }}</span>
+		<span>{{ }}</span>
+		<span>{{ }}</span>
+		<span>{{ }}</span>
+		<span>{{ }}</span> -->
+	</div>
+  <div id="output"></div>
+    <footer class="mb-0">
+      <p>
+        <a href="#">Specials</a> | <a href="#">About</a> |
+        <a href="#">Contact</a>
+      </p>
+      <div id="brand-logos">
+        <img src="img/logos/PREDATOR.JPG" alt="brands placeholder" />
+        <img src="img/logos/VALLEY.JPG" alt="brands placeholder" />
+        <img
+          src="img/logos/AMERICANA-HARLEY-DAVIDSON.JPG"
+          alt="brands placeholder"
+        />
+        <img src="img/logos/DEADSTOKE.JPG" alt="brands placeholder" />
+        <img src="img/logos/GRIFFIN.JPG" alt="brands placeholder" />
+        <img src="img/logos/MEUCCI.JPG" alt="" />
+        <img src="img/logos/SCHON.JPG" alt="" />
+        <img src="img/logos/VIKING.JPG" alt="" />
+      </div>
+      <p>&copy;2019 RackBusters Billiards</p>
+    </footer>
+<script src="js/functions.js"></script>
+    <!-- scripts -->
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <!--
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	  -->
+
+    <!-- will be using vue-bs -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Vanilla app -->
+    <!-- <script src="js/app.js"></script> -->
+    
+	  <!-- Vue apps -->
+    <script src="js/products.js"></script>
+    
+	  
+  </body>
+</html>
